@@ -431,6 +431,54 @@
       border-top: 1px dashed var(--cba-border);
       font-size: 0.9em;
     }
+
+    /* 首页：周报入口（避免把大段代码放在首页触发错乱按钮） */
+    .markdown-section .cba-home-cta {
+      margin: 0 0 1.75rem;
+      padding: 1.1rem 1.2rem;
+      background: linear-gradient(135deg, var(--cba-accent-soft), var(--cba-card));
+      border: 1px solid var(--cba-border);
+      border-radius: 12px;
+      border-left: 4px solid var(--cba-accent);
+    }
+    .markdown-section .cba-home-cta-label {
+      margin: 0 0 0.35rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--cba-muted);
+    }
+    .markdown-section .cba-home-cta-title {
+      margin: 0 0 0.65rem;
+      font-family: "Noto Serif SC", serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--cba-ink);
+      line-height: 1.35;
+    }
+    .markdown-section a.cba-home-cta-btn {
+      display: inline-block;
+      padding: 0.55rem 1.15rem;
+      background: var(--cba-accent);
+      color: #fff !important;
+      border: none !important;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none !important;
+      margin-bottom: 0.5rem;
+    }
+    .markdown-section a.cba-home-cta-btn:hover {
+      background: #0a4d66;
+      color: #fff !important;
+    }
+    .markdown-section .cba-home-cta-hint {
+      margin: 0;
+      font-size: 0.88em;
+      color: var(--cba-muted);
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -461,11 +509,6 @@
       search: {
         placeholder: "搜索全文…",
         depth: 3,
-      },
-      copyCode: {
-        buttonText: "复制",
-        errorText: "复制失败",
-        successText: "已复制",
       },
       plugins: [
         function (hook) {
@@ -512,7 +555,6 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script>
     (function () {
