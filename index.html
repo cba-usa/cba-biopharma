@@ -23,6 +23,41 @@
       .markdown-section { padding: 0.75rem 1rem 2.5rem; }
     }
     .app-name-link img { max-height: 2rem; }
+    /* 手机：代码块与长行自动换行，避免整页横向拖动 */
+    .markdown-section pre {
+      max-width: 100%;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .markdown-section pre code {
+      white-space: pre-wrap !important;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .markdown-section {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    /* 「原文参考」用 div 包一段时：与正文区分、仍自动换行 */
+    .markdown-section .cba-yuanwen {
+      margin: 0.75rem 0 1.25rem;
+      padding: 0.85rem 1rem;
+      background: rgba(0, 0, 0, 0.04);
+      border-radius: 8px;
+      border-left: 4px solid var(--theme-color, #3e6fb8);
+      font-size: 0.95em;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    @media (prefers-color-scheme: dark) {
+      .markdown-section .cba-yuanwen {
+        background: rgba(255, 255, 255, 0.06);
+      }
+    }
   </style>
 </head>
 <body>
@@ -36,7 +71,8 @@
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
-      relativePath: true,
+      // 项目站点 + 侧栏：勿开 relativePath，否则从子目录页点侧栏会解析错路径
+      relativePath: false,
       search: {
         placeholder: "搜索全文…",
         depth: 3,
