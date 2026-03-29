@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a1a2e" />
+  <title>CBA 生物医药全球研发信息汇总</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <style>
+    :root {
+      --base-font-size: 16px;
+      --theme-color: #3e6fb8;
+    }
+    .markdown-section {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 1rem 1.25rem 3rem;
+      font-size: var(--base-font-size);
+      line-height: 1.65;
+    }
+    @media (max-width: 600px) {
+      :root { --base-font-size: 15px; }
+      .markdown-section { padding: 0.75rem 1rem 2.5rem; }
+    }
+    .app-name-link img { max-height: 2rem; }
+  </style>
+</head>
+<body>
+  <div id="app">加载中…</div>
+  <script>
+    // 项目站点：cba-usa/cba-biopharma → https://cba-usa.github.io/cba-biopharma/
+    window.$docsify = {
+      basePath: "/cba-biopharma/",
+      name: "CBA 生物医药全球研发信息汇总",
+      repo: "",
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      relativePath: true,
+      search: {
+        placeholder: "搜索全文…",
+        depth: 3,
+      },
+      copyCode: {
+        buttonText: "复制",
+        errorText: "复制失败",
+        successText: "已复制",
+      },
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+</body>
+</html>
