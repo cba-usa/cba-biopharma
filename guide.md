@@ -29,11 +29,49 @@
 
 ## 4. 关键词、标签、比例条与地区展示
 
-每篇周报可在文首或小结处插入 HTML，样式类名已写在 `index.html` 中，示例见 [README.md](README.md) 的「周报内可选」一节。
+每篇周报可在文首或小结处插入 HTML，样式类名已写在 `index.html` 中。**可直接复制的长示例**见下文 [附录：HTML 片段示例](#cba-html-appendix)。
 
 - **关键词** `cba-kw`、**标签** `cba-tag`（数据类可加 `cba-tag--stat`）
 - **比例** `cba-pct-row` + `cba-pct-fill` 的 `width:__%`
 - **国家/地区** `cba-geo-chip`：可写编辑摘要；若与 Plausible/GA4 后台一致，建议注明统计周期
+
+<h2 id="cba-html-appendix">附录：HTML 片段示例（供周报粘贴）</h2>
+
+将下面整段复制到任意 `.md` 正文中即可（可与 Markdown 混排）。首页不再放这些代码块，以免阅读干扰。
+
+### 关键词 + 标签
+
+```html
+<div class="cba-doc-meta">
+  <span class="cba-meta-label">关键词</span>
+  <span class="cba-kw">ADC</span><span class="cba-kw">BD</span>
+  <span class="cba-meta-label">标签</span>
+  <span class="cba-tag">临床</span><span class="cba-tag cba-tag--stat">数据</span>
+</div>
+```
+
+### 比例条
+
+`cba-pct-fill` 的 `style="width:XX%"` 与右侧百分比数字保持一致。
+
+```html
+<div class="cba-pct-row" aria-label="美国 42%">
+  <span class="cba-pct-name">美国</span>
+  <div class="cba-pct-track"><span class="cba-pct-fill" style="width:42%"></span></div>
+  <span class="cba-pct-val">42%</span>
+</div>
+```
+
+### 读者国家 / 地区（手写摘要或引用后台统计）
+
+```html
+<p class="cba-meta-label" style="margin-bottom:0.25rem">本期访问来源（示例）</p>
+<div class="cba-geo-row">
+  <span class="cba-geo-chip"><strong>美国</strong> 48%</span>
+  <span class="cba-geo-chip"><strong>中国</strong> 31%</span>
+  <span class="cba-geo-chip"><strong>其他</strong> 21%</span>
+</div>
+```
 
 ## 5. 访问人数与国家地区（分析工具）
 
