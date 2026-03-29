@@ -688,6 +688,150 @@ Both represent mechanistic innovation over brute-force pharmacology.
 
 ---
 
+<a id="item-7"></a>
+## 7. AlpE 推进肺结核 2b 期：不造新抗生素，而是让旧武器重新有效
+**分类：临床 ｜ 企业：BioVersys / GSK**
+
+---
+
+### 原文参考
+
+7. BioVersys / GSK: Alpibectir (AlpE) 在肺结核 (TB) 中的 Phase 2b 试验推进
+
+抗微生物耐药性（AMR）领域的创新正在加速。瑞士临床阶段生物制药公司 BioVersys 宣布，在其与葛兰素史克（GSK）的合作框架下，评估 Alpibectir-ethionamide (AlpE) 联合一线抗结核药物治疗药物敏感性肺结核（DS-TB）的 Phase 2b 临床试验（NCT05807399）已完成首例患者给药 35。该试验在欧盟 IMI2 UNITE4TB 项目的支持下于六个非洲国家开展，患者将接受为期两月的 AlpE 与 RZE（利福平、吡嗪酰胺、乙胺丁醇）联合治疗，随后接受 18 周的单纯 RH（利福平、异烟肼）治疗。预计顶线结果将于 2027 年底公布 35。
+
+深度科学与产业剖析：
+
+结核分枝杆菌（Mycobacterium tuberculosis）的耐药性演变是全球公共卫生面临的最严峻挑战之一。乙硫异烟胺（Ethionamide, Eto）是一种二线抗结核药物，尽管对耐多药结核病（MDR-TB）有效，但其在临床使用中需要极高的剂量，这导致了严重的、剂量依赖性的胃肠道毒性和肝毒性，极大限制了其临床效用。此外，结核菌通过基因突变降低了对 Eto 的激活能力，导致耐药性频发。
+
+Alpibectir 是一种基于转录调控抑制化合物（Transcriptional Regulatory Inhibitory Compounds, TRIC）平台开发的新型小分子增效剂 35。其独特的作用机制不在于直接杀灭细菌，而是通过抑制结核菌体内的转录重遏制机制，重新激活细菌对 Eto 或丙硫异烟胺（Pto）的敏感性。这种“药物增效”策略具有双重优势：其一，它能够成倍地提高 Eto 的杀菌效力，从而允许在临床上大幅降低 Eto 的给药剂量，直接规避了令人畏惧的剂量依赖性副作用；其二，它能够逆转已形成的 Eto 耐药性 35。
+
+此前进行的为期 7 天的 Phase 2a 早期杀菌活性试验已成功提供了人体概念验证，证明了 AlpE 组合在 TB 患者中具有类似于一线神药异烟肼的强效活性 35。该药物组合已获得 FDA 和 EMA 的孤儿药资格认定（ODD） 35。如果 Phase 2b 剂量探索试验能够成功确认其在标准联合方案中的安全性与持久疗效，AlpE 将有望成为未来短程、低毒、高治愈率抗结核新方案的基石，为沉寂多年的全球抗生素和传染病研发管线注入一剂强心针。
+
+---
+
+### WeChat 微信公众号
+
+【临床前沿】AlpE 肺结核 2b 期首例给药：不直接杀菌，却可能重写抗结核方案逻辑
+
+抗微生物耐药性（AMR）这几年越来越像全球医药研发里最难啃、但又最不能放弃的硬骨头。真正的问题不只是“有没有新药”，而是现有抗感染武器正在越来越快地失效。在这样的背景下，BioVersys 与 GSK 合作推进的 AlpE，在肺结核领域给出了一条很不一样的研发路径。
+
+◆ 核心事件：
+BioVersys 宣布，Alpibectir-ethionamide（AlpE）联合一线抗结核方案治疗药物敏感性肺结核（DS-TB）的 Phase 2b 临床试验已完成首例患者给药。该研究在欧盟 IMI2 UNITE4TB 项目支持下，于六个非洲国家开展。患者将先接受 2 个月 AlpE + RZE（利福平、吡嗪酰胺、乙胺丁醇）联合治疗，随后接受 18 周 RH（利福平、异烟肼）治疗。顶线结果预计于 2027 年底公布。
+
+◆ 为什么这条进展值得关注：
+AlpE 的创新点并不在于“再做一个新抗生素”，而在于它采用了更聪明的增效策略。乙硫异烟胺（Eto）本来就是一个已知有效的抗结核武器，但问题在于它往往需要较高剂量，随之带来的胃肠道和肝毒性让它在临床使用中受到很大限制。同时，结核菌还会通过改变药物激活机制，逐步产生耐药。
+
+AlpE 的作用逻辑正好切中这两个痛点。它基于 TRIC 平台开发，不直接杀菌，而是通过抑制结核菌的转录重遏制机制，重新激活细菌对 Eto 或 Pto 的敏感性。换句话说，它的价值不是“替代旧药”，而是“让旧药重新变强、重新可用”。
+
+◆ 关键产业信号：
+这种策略有两个极具产业意义的结果。第一，可以显著提升 Eto 的杀菌效力，从而把剂量压低，减少剂量依赖性毒性；第二，它有机会逆转已经形成的耐药性。此前 7 天的 Phase 2a 早期杀菌活性试验已经提供人体概念验证，显示 AlpE 组合在 TB 患者中的活性接近异烟肼这一经典一线药物。
+
+如果后续 2b 试验顺利确认其在标准联合方案中的安全性和持久疗效，AlpE 可能代表一种重要的抗感染研发新方向：不是一味追求全新分子，而是通过机制增效，把被耐药和毒性限制住的成熟药物重新拉回临床主战场。
+
+对于沉寂已久的抗结核和 AMR 研发来说，这是一条非常值得继续追踪的路线。你怎么看这种“不造新武器，而是让旧武器重新有效”的研发思路？欢迎留言讨论。
+
+— CBA 全球研发周报
+
+> **发布策略：** 周二早 8:00 ｜ 配图：AlpE 作用机制图 + “直接杀菌 vs 药物增效”对比卡 ｜ #结核病 #TB #AMR #BioVersys #GSK ｜ 适合强调“机制创新”而非单纯 trial update
+
+---
+
+### X / Twitter
+
+🦠 TB innovation worth watching: BioVersys/GSK just dosed the first patient in Phase 2b for AlpE in drug-sensitive pulmonary TB
+
+Why this matters 🧵
+
+1/ AlpE is not a classic “new antibiotic” story. It does not directly kill TB. It re-sensitizes the bacteria to ethionamide by blocking transcriptional repression.
+
+2/ That matters because ethionamide works, but high doses drive major GI and liver toxicity. AlpE may allow lower dosing while preserving or boosting efficacy.
+
+3/ Even more interesting: this strategy may help reverse existing resistance, not just improve tolerability.
+
+4/ Phase 2a already provided human PoC, showing early bactericidal activity comparable to isoniazid. That is a strong signal for a mechanism-enhancer approach.
+
+5/ The current Phase 2b is running across 6 African countries with topline data expected at the end of 2027.
+
+This is what smart AMR innovation looks like: not always inventing a new weapon, but making old ones work again.
+
+#TB #AMR #Biotech #InfectiousDisease @CaboraInfo
+
+> **发布策略：** 美东周二上午 ｜ 首句直接打出 “not a classic new antibiotic story” 增加停留率
+
+---
+
+### LinkedIn
+
+AlpE May Represent a Smarter Model for TB Innovation: Drug Resensitization Over Direct Replacement
+
+BioVersys has announced first-patient dosing in the Phase 2b study of Alpibectir-ethionamide (AlpE) in drug-sensitive pulmonary tuberculosis under its collaboration with GSK. The trial is being conducted across six African countries, with topline results expected at the end of 2027.
+
+What makes AlpE strategically interesting is that it does not follow the conventional anti-infective playbook. Rather than acting as a new direct antibacterial agent, it is designed to restore bacterial sensitivity to ethionamide through transcriptional regulatory inhibition. In practical terms, that could both enhance potency and reduce the dose burden that has historically limited ethionamide because of GI and hepatotoxicity.
+
+This is why the program matters beyond TB alone. If successful, it would validate a broader AMR development model built on resensitization, dose reduction, and rehabilitation of older anti-infective agents whose utility has been constrained by toxicity or resistance.
+
+In a field where entirely new antibiotic discovery has often struggled commercially and clinically, AlpE suggests a more capital-efficient and mechanistically elegant path forward.
+
+What other infectious disease areas could benefit from this “make old drugs work again” strategy?
+
+— CBA Global R&D Intelligence Weekly
+
+> **发布策略：** 周二上午 ｜ 受众适合感染领域 BD、全球健康基金会、AMR 投资与政策圈
+
+---
+
+### Bluesky
+
+One of the more interesting TB developments this week is BioVersys/GSK moving AlpE into active Phase 2b execution with first-patient dosing.
+
+AlpE is compelling because it is not trying to outcompete existing TB drugs by brute force. It aims to re-sensitize the bacteria to ethionamide through transcriptional regulatory inhibition, potentially enabling lower dosing, less toxicity, and reversal of resistance.
+
+That is a very different model of anti-infective innovation, and arguably a much needed one in the AMR era.
+
+CBA Weekly | March 13, 2026
+
+> **发布策略：** 周二午间 ｜ 语气保持专业、观察型，更适合科研与公共卫生受众
+
+---
+
+### 小红书
+
+结核病新药，不一定非得“发明一把新枪”
+
+这周看到一条很有意思的结核病研发进展。
+
+BioVersys 和 GSK 合作的 AlpE，在肺结核 2b 期试验里完成了首例患者给药。  
+它最特别的地方是: 这不是一个传统意义上“直接把细菌杀掉”的新药。
+
+它更像一个“增效器”。
+
+什么意思？
+
+结核治疗里有些老药其实不是没用，而是有两个问题：
+1. 剂量高，副作用大，容易伤胃伤肝
+2. 细菌慢慢学会了“躲开它”，也就是耐药
+
+AlpE 的思路就是:
+不是重新造一个全新武器，
+而是让老药重新恢复威力。
+
+它通过调节细菌内部的转录控制机制，让结核菌重新对乙硫异烟胺敏感。这样一来，有机会做到：
+
+• 老药剂量更低  
+• 副作用更小  
+• 已形成的耐药也可能被逆转  
+
+更值得注意的是，前面的 2a 期已经给过人体概念验证，说明这个组合的活性很强。现在 2b 期继续推进，看的就是它能不能真正变成更安全、更实用的新方案。
+
+这类项目让我觉得，未来抗感染创新未必只靠“新分子大战”，也可能靠“把旧药重新变好用”。
+
+#结核病 #TB #抗生素耐药 #AMR #新药研发
+
+> **发布策略：** 周二晚 8:00 ｜ 配图建议：“旧武器升级包”类科普卡片，便于讲清 resensitization 概念
+
+---
+
 <a id="item-8"></a>
 ## 8–13. 融资六连发
 
