@@ -5,7 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0f3d5c" />
   <meta name="description" content="CBA 生物医药全球研发信息汇总 · 周报与跨平台发布底稿" />
+  <meta name="keywords" content="CBA,Chinese Biopharmaceutical Association,生物医药,研发,周报,biopharma,R&amp;D" />
+  <meta property="og:title" content="CBA 生物医药全球研发信息汇总" />
+  <meta property="og:description" content="美国华人生物医药协会（CBA）志愿者整理的全球研发信息周报与索引。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cba-usa.github.io/cba-biopharma/" />
   <title>CBA 生物医药全球研发信息汇总</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CBA 生物医药全球研发信息汇总",
+    "description": "CBA 志愿者整理的生物医药研发信息周报",
+    "url": "https://cba-usa.github.io/cba-biopharma/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Chinese Biopharmaceutical Association, USA (CBA)",
+      "url": "https://cba-usa.org/"
+    }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,450..600;1,9..40,450..600&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet" />
@@ -261,6 +280,156 @@
 
     .app-name-link img {
       max-height: 2rem;
+    }
+
+    /* —— 周报元数据：关键词、标签 —— */
+    .markdown-section .cba-doc-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem 0.65rem;
+      margin: 0 0 1.35rem;
+      padding: 0.7rem 0.9rem;
+      background: var(--cba-accent-soft);
+      border-radius: 10px;
+      border: 1px solid var(--cba-border);
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+    .markdown-section .cba-meta-label {
+      font-weight: 600;
+      color: var(--cba-muted);
+      flex: 0 0 auto;
+    }
+    .markdown-section .cba-meta-label::after {
+      content: "：";
+    }
+    .markdown-section .cba-kw,
+    .markdown-section .cba-tag {
+      display: inline-block;
+      padding: 0.12rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.8em;
+      font-weight: 500;
+      margin: 0.1rem 0.15rem 0.1rem 0;
+    }
+    .markdown-section .cba-kw {
+      background: var(--cba-card);
+      border: 1px solid var(--cba-border);
+      color: var(--cba-ink);
+    }
+    .markdown-section .cba-tag {
+      background: rgba(13, 92, 124, 0.11);
+      color: var(--cba-accent);
+      border: 1px solid rgba(13, 92, 124, 0.22);
+    }
+    .markdown-section .cba-tag.cba-tag--stat {
+      background: rgba(140, 90, 20, 0.1);
+      color: #7a5010;
+      border-color: rgba(140, 90, 20, 0.28);
+    }
+
+    /* 比例条（在 Markdown 里写宽度百分比） */
+    .markdown-section .cba-pct-row {
+      display: grid;
+      grid-template-columns: minmax(4.2rem, 6.5rem) 1fr 2.6rem;
+      align-items: center;
+      gap: 0.45rem 0.65rem;
+      margin: 0.45rem 0;
+      font-size: 0.88em;
+    }
+    .markdown-section .cba-pct-name {
+      color: var(--cba-muted);
+    }
+    .markdown-section .cba-pct-track {
+      height: 9px;
+      background: #e2ebf2;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .markdown-section .cba-pct-fill {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, var(--cba-accent), #2a9fc9);
+      border-radius: 999px;
+      min-width: 2px;
+      transition: width 0.35s ease;
+    }
+    .markdown-section .cba-pct-val {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      color: var(--cba-accent);
+    }
+
+    /* 读者地区 / 国家（周报内手写或引用后台统计摘要） */
+    .markdown-section .cba-geo-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 0.5rem 0 1rem;
+    }
+    .markdown-section .cba-geo-chip {
+      padding: 0.22rem 0.55rem;
+      border-radius: 8px;
+      background: var(--cba-card);
+      border: 1px solid var(--cba-border);
+      font-size: 0.84em;
+    }
+    .markdown-section .cba-geo-chip strong {
+      color: var(--cba-accent);
+      font-weight: 600;
+    }
+
+    /* 全站页脚（Docsify 注入） */
+    .cba-site-footer {
+      margin-top: 2.5rem;
+      padding-top: 1.25rem;
+      font-size: 0.88em;
+      color: var(--cba-muted);
+      line-height: 1.65;
+    }
+    .cba-site-footer .cba-footer-hr {
+      margin: 0 0 1rem;
+      background: linear-gradient(90deg, transparent, var(--cba-border), transparent);
+      height: 1px;
+      border: none;
+    }
+    .cba-site-footer .cba-footer-grid {
+      display: grid;
+      gap: 1rem;
+    }
+    @media (min-width: 640px) {
+      .cba-site-footer .cba-footer-grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+      }
+    }
+    .cba-site-footer strong {
+      color: var(--cba-ink);
+      font-size: 0.95em;
+    }
+    .cba-site-footer .cba-footer-mission {
+      margin: 0.35rem 0 0;
+    }
+    .cba-site-footer .cba-footer-mission a {
+      border-bottom: 1px solid rgba(13, 92, 124, 0.35);
+    }
+    .cba-site-footer .cba-footer-note {
+      margin: 0;
+      padding: 0.5rem 0.65rem;
+      background: rgba(13, 92, 124, 0.05);
+      border-radius: 8px;
+      border: 1px solid var(--cba-border);
+    }
+    .cba-site-footer .cba-footer-note code {
+      font-size: 0.88em;
+    }
+    .cba-site-footer .cba-footer-disclaimer {
+      margin: 1rem 0 0;
+      padding-top: 0.85rem;
+      border-top: 1px dashed var(--cba-border);
+      font-size: 0.9em;
     }
   </style>
 </head>
