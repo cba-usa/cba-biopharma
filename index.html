@@ -436,6 +436,19 @@
 <body>
   <div id="app">加载中…</div>
   <script>
+    /**
+     * 可选：访问分析（在 Plausible / GA4 后台查看访问量、国家/地区、来源等）
+     * - plausibleDomain：在 https://plausible.io 添加站点后的域名，如 cba-usa.github.io
+     * - ga4MeasurementId：如 G-XXXXXXXXXX
+     * 留空则不加载任何统计脚本。
+     */
+    window.CBA_SITE_CONFIG = {
+      officialSiteUrl: "https://cba-usa.org/",
+      contactEmail: "contact@cba-usa.org",
+      plausibleDomain: "",
+      ga4MeasurementId: "",
+    };
+
     window.$docsify = {
       basePath: "/cba-biopharma/",
       name: "CBA 生物医药全球研发信息汇总",
@@ -454,11 +467,77 @@
         errorText: "复制失败",
         successText: "已复制",
       },
+      plugins: [
+        function (hook) {
+          hook.afterEach(function (html) {
+            var cfg = window.CBA_SITE_CONFIG || {};
+            var site = cfg.officialSiteUrl || "https://cba-usa.org/";
+            var email = cfg.contactEmail || "contact@cba-usa.org";
+            var esc = function (s) {
+              return String(s)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/"/g, "&quot;");
+            };
+            var footer =
+              '<footer class="cba-site-footer" role="contentinfo">' +
+              '<hr class="cba-footer-hr" />' +
+              '<div class="cba-footer-grid">' +
+              "<div>" +
+              "<strong>Chinese Biopharmaceutical Association, USA (CBA)</strong>" +
+              '<p class="cba-footer-mission">美国华人生物医药协会 · ' +
+              '<a href="' +
+              esc(site) +
+              '" target="_blank" rel="noopener">官网 cba-usa.org</a> · ' +
+              '<a href="mailto:' +
+              esc(email) +
+              '">' +
+              esc(email) +
+              "</a></p>" +
+              "<p>协会使命：促进美中之间生物医药领域的交流与合作（详见官网 <a href=\"" +
+              esc(site) +
+              '" target="_blank" rel="noopener">About</a>）。</p>' +
+              "</div>" +
+              '<div class="cba-footer-analytics">' +
+              '<p class="cba-footer-note">访问人数、国家/地区与流量来源需在分析工具后台查看：在下方 <code>index.html</code> 的 <code>CBA_SITE_CONFIG</code> 中填写 <code>plausibleDomain</code> 或 <code>ga4MeasurementId</code>（配置说明见 <code>guide.md</code>）。</p>' +
+              "</div>" +
+              "</div>" +
+              '<p class="cba-footer-disclaimer">本站为 CBA 志愿者整理的研发信息汇总，仅供会员与社区参考，不代表协会全部立场；会员、活动与章程以官网为准。</p>' +
+              "</footer>";
+            return html + footer;
+          });
+        },
+      ],
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script>
+    (function () {
+      var c = window.CBA_SITE_CONFIG || {};
+      if (c.plausibleDomain) {
+        var p = document.createElement("script");
+        p.defer = true;
+        p.setAttribute("data-domain", c.plausibleDomain);
+        p.src = "https://plausible.io/js/script.js";
+        document.head.appendChild(p);
+      }
+      if (c.ga4MeasurementId) {
+        var g = document.createElement("script");
+        g.async = true;
+        g.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(c.ga4MeasurementId);
+        document.head.appendChild(g);
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        window.gtag = gtag;
+        gtag("js", new Date());
+        gtag("config", c.ga4MeasurementId, { anonymize_ip: true });
+      }
+    })();
+  </script>
 </body>
 </html>
