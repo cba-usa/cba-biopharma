@@ -3,67 +3,270 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#1a1a2e" />
+  <meta name="theme-color" content="#0f3d5c" />
+  <meta name="description" content="CBA 生物医药全球研发信息汇总 · 周报与跨平台发布底稿" />
   <title>CBA 生物医药全球研发信息汇总</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,450..600;1,9..40,450..600&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
   <style>
     :root {
-      --base-font-size: 16px;
-      --theme-color: #3e6fb8;
+      --cba-ink: #14232f;
+      --cba-muted: #5a6b7a;
+      --cba-accent: #0d5c7c;
+      --cba-accent-soft: #e8f2f6;
+      --cba-border: #d8e2e9;
+      --cba-bg: #f7f9fb;
+      --cba-sidebar-bg: #f0f4f8;
+      --cba-card: #ffffff;
+      --base-font-size: 17px;
+      --theme-color: var(--cba-accent);
+      --theme-color-lighter: #1a7a9e;
     }
+
+    body {
+      font-family: "DM Sans", "Noto Serif SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      color: var(--cba-ink);
+      letter-spacing: 0.01em;
+    }
+
+    /* 侧栏 */
+    .sidebar {
+      background: linear-gradient(180deg, var(--cba-sidebar-bg) 0%, #e8eef4 100%);
+      border-right: 1px solid var(--cba-border);
+      padding-top: 0.5rem;
+    }
+    .sidebar > h1 a,
+    .app-name-link {
+      font-family: "Noto Serif SC", serif;
+      font-weight: 600 !important;
+      font-size: 1.05rem !important;
+      line-height: 1.35 !important;
+      color: var(--cba-accent) !important;
+      padding: 0.75rem 1rem 1rem !important;
+    }
+    .sidebar ul li a {
+      border-radius: 6px;
+      margin: 2px 0.35rem;
+      padding: 0.45rem 0.65rem !important;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    .sidebar ul li a:hover {
+      background: rgba(13, 92, 124, 0.08);
+      color: var(--cba-accent) !important;
+    }
+    .sidebar ul li.active > a {
+      background: var(--cba-accent-soft);
+      color: var(--cba-accent) !important;
+      font-weight: 600;
+      border-left: 3px solid var(--cba-accent);
+      padding-left: calc(0.65rem - 3px) !important;
+    }
+    .sidebar .search {
+      margin: 0.5rem 0.75rem 1rem;
+      border: 1px solid var(--cba-border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: var(--cba-card);
+      box-shadow: 0 1px 3px rgba(15, 35, 60, 0.06);
+    }
+    .sidebar .search input {
+      font-size: 0.9rem !important;
+    }
+
+    /* 主内容区背景 */
     .markdown-section {
-      max-width: 46rem;
+      max-width: 42rem;
       margin: 0 auto;
-      padding: 1rem 1.25rem 3rem;
+      padding: 1.5rem 1.5rem 4rem;
       font-size: var(--base-font-size);
-      line-height: 1.65;
+      line-height: 1.75;
+      background: var(--cba-card);
+      box-shadow: 0 0 0 1px rgba(15, 35, 60, 0.04), 0 12px 40px -20px rgba(15, 35, 60, 0.12);
+      border-radius: 12px;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
-    @media (max-width: 600px) {
-      :root { --base-font-size: 15px; }
-      .markdown-section { padding: 0.75rem 1rem 2.5rem; }
+
+    @media (max-width: 768px) {
+      .markdown-section {
+        margin: 0.5rem 0.65rem 2rem;
+        padding: 1.15rem 1.1rem 3rem;
+        border-radius: 10px;
+        font-size: 16px;
+      }
     }
-    .app-name-link img { max-height: 2rem; }
-    /* 手机：代码块与长行自动换行，避免整页横向拖动 */
+
+    /* 标题层次 */
+    .markdown-section h1 {
+      font-family: "Noto Serif SC", serif;
+      font-weight: 700;
+      font-size: 1.65rem;
+      color: var(--cba-ink);
+      border-bottom: 2px solid var(--cba-accent-soft);
+      padding-bottom: 0.5rem;
+      margin-top: 0;
+    }
+    .markdown-section h2 {
+      font-family: "Noto Serif SC", serif;
+      font-weight: 600;
+      font-size: 1.28rem;
+      color: var(--cba-accent);
+      margin-top: 2rem;
+      padding-top: 0.25rem;
+      border-left: 4px solid var(--cba-accent);
+      padding-left: 0.75rem;
+    }
+    .markdown-section h3 {
+      font-size: 1.08rem;
+      font-weight: 600;
+      color: var(--cba-ink);
+      margin-top: 1.5rem;
+    }
+    .markdown-section h4 {
+      font-size: 1rem;
+      color: var(--cba-muted);
+      font-weight: 600;
+    }
+
+    .markdown-section p {
+      margin: 0.85em 0;
+      color: var(--cba-ink);
+    }
+    .markdown-section strong {
+      color: var(--cba-ink);
+      font-weight: 600;
+    }
+
+    .markdown-section a {
+      color: var(--cba-accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(13, 92, 124, 0.35);
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .markdown-section a:hover {
+      color: var(--theme-color-lighter);
+      border-bottom-color: var(--theme-color-lighter);
+    }
+
+    .markdown-section hr {
+      border: none;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--cba-border), transparent);
+      margin: 2rem 0;
+    }
+
+    .markdown-section blockquote {
+      margin: 1rem 0;
+      padding: 0.65rem 1rem;
+      border-left: 4px solid var(--cba-accent);
+      background: var(--cba-accent-soft);
+      border-radius: 0 8px 8px 0;
+      color: var(--cba-muted);
+      font-size: 0.95em;
+    }
+
+    .markdown-section ul,
+    .markdown-section ol {
+      padding-left: 1.35rem;
+    }
+    .markdown-section li {
+      margin: 0.35em 0;
+    }
+
+    /* 表格：手机可横向轻滑，表头强调 */
+    .markdown-section table {
+      display: block;
+      max-width: 100%;
+      overflow-x: auto;
+      border-collapse: collapse;
+      font-size: 0.92em;
+      border-radius: 8px;
+      box-shadow: 0 0 0 1px var(--cba-border);
+    }
+    .markdown-section thead {
+      background: var(--cba-accent-soft);
+    }
+    .markdown-section th,
+    .markdown-section td {
+      border: 1px solid var(--cba-border);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+
+    .markdown-section {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    /* 代码块 */
     .markdown-section pre {
       max-width: 100%;
       overflow-x: auto;
       white-space: pre-wrap;
       word-break: break-word;
       overflow-wrap: anywhere;
+      border-radius: 10px;
+      border: 1px solid var(--cba-border);
+      background: #f4f7fa !important;
+      font-size: 0.88em;
+      line-height: 1.55;
     }
     .markdown-section pre code {
       white-space: pre-wrap !important;
       word-break: break-word;
       overflow-wrap: anywhere;
     }
-    .markdown-section {
-      overflow-wrap: anywhere;
-      word-break: break-word;
+
+    .markdown-section code {
+      font-family: ui-monospace, "Cascadia Code", "SF Mono", Menlo, monospace;
+      font-size: 0.88em;
+      background: rgba(13, 92, 124, 0.07);
+      padding: 0.12em 0.35em;
+      border-radius: 4px;
     }
-    /* 「原文参考」用 div 包一段时：与正文区分、仍自动换行 */
+    .markdown-section pre code {
+      background: transparent;
+      padding: 0;
+    }
+
     .markdown-section .cba-yuanwen {
       margin: 0.75rem 0 1.25rem;
       padding: 0.85rem 1rem;
-      background: rgba(0, 0, 0, 0.04);
-      border-radius: 8px;
-      border-left: 4px solid var(--theme-color, #3e6fb8);
-      font-size: 0.95em;
-      line-height: 1.7;
+      background: var(--cba-accent-soft);
+      border-radius: 10px;
+      border-left: 4px solid var(--cba-accent);
+      font-size: 0.96em;
+      line-height: 1.75;
       white-space: pre-wrap;
       word-break: break-word;
       overflow-wrap: anywhere;
     }
-    @media (prefers-color-scheme: dark) {
-      .markdown-section .cba-yuanwen {
-        background: rgba(255, 255, 255, 0.06);
+
+    /* 主区域背景色 */
+    section.content,
+    .content {
+      background: var(--cba-bg);
+      min-height: 100vh;
+    }
+
+    /* 移动端侧栏打开时 */
+    @media (max-width: 768px) {
+      :root { --base-font-size: 16px; }
+      .sidebar-toggle {
+        background: var(--cba-accent) !important;
       }
+    }
+
+    .app-name-link img {
+      max-height: 2rem;
     }
   </style>
 </head>
 <body>
   <div id="app">加载中…</div>
   <script>
-    // 项目站点：cba-usa/cba-biopharma → https://cba-usa.github.io/cba-biopharma/
     window.$docsify = {
       basePath: "/cba-biopharma/",
       name: "CBA 生物医药全球研发信息汇总",
@@ -71,8 +274,8 @@
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
-      // 项目站点 + 侧栏：勿开 relativePath，否则从子目录页点侧栏会解析错路径
       relativePath: false,
+      themeColor: "#0d5c7c",
       search: {
         placeholder: "搜索全文…",
         depth: 3,
