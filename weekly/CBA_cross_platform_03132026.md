@@ -1,0 +1,852 @@
+# CBA 全球研发情报 · 跨平台内容矩阵
+**2026.03.06 – 2026.03.13 ｜ 16 条目 × 5 平台 = 80 篇待发内容**
+
+---
+
+## 目录
+
+1. [Tyvaso 吸入治疗 IPF 三期优效](#item-1)
+2. [SGT-003 DMD 基因疗法差异化安全数据](#item-2)
+3. [BBP-418 肢带型肌营养不良症三期突破](#item-3)
+4. [Roche/Zealand Petrelintide 肥胖二期数据](#item-4)
+5. [INT230-6 瘤内注射治 TNBC 二期突破](#item-5)
+6. [GT-02287 帕金森 GCase 调节剂 1b 期信号](#item-6)
+7. [BioVersys AlpE 结核病 2b 期首例给药](#item-7)
+8. [Parabilis 3.05 亿美元 F 轮融资](#item-8)
+9. [CORXEL 2.87 亿美元 D1 轮 · 口服 GLP-1](#item-9)
+10. [Vitestro 7000 万 B 轮 · AI 机器人采血](#item-10)
+11. [Korro Bio 8500 万 PIPE · RNA 编辑](#item-11)
+12. [TRexBio 5000 万 B 轮 · Treg 靶向](#item-12)
+13. [Equillium 3500 万 PIPE · AhR 调节剂](#item-13)
+14. [Servier 25 亿收购 Day One · 神经肿瘤](#item-14)
+15. [Alfasigma 引进 GSK Linerixibat · PBC](#item-15)
+16. [FDA 批准 Wellcovorin · 真实世界证据里程碑](#item-16)
+
+---
+
+<a id="item-1"></a>
+## 1. Tyvaso 吸入治疗 IPF：首个证明吸入疗法减缓肺纤维化的三期试验
+**分类：临床 ｜ 企业：United Therapeutics**
+
+### WeChat 微信公众号
+
+【重磅】全球首个！吸入型Tyvaso三期试验证明可减缓IPF纤维化进展——NEJM全文发表
+
+◆ 核心事件：《新英格兰医学杂志》全文发表United Therapeutics吸入型Tyvaso（曲前列尼尔）治疗特发性肺纤维化（IPF）的TETON-2三期试验完整结果，成功达到主要终点。
+
+◆ IPF是一种进行性致命性间质性肺疾病，现有口服抗纤维化药物（尼达尼布、吡非尼酮）虽能减缓进展，但全身性胃肠道和肝脏毒性导致停药率极高。
+
+◆ 核心数据：
+• 52周FVC下降：Tyvaso组显著低于安慰剂组
+• 临床恶化风险降低29%（HR 0.71）
+• K-BILD生活质量评分和DLCO均显著改善
+• 75.4%患者已在接受标准口服抗纤维化治疗——Tyvaso展现叠加协同获益
+
+◆ 为何是里程碑？这是全球首个证明吸入性疗法能有效减缓IPF纤维化进展的临床试验。药物直接送达肺部病灶→最大化局部浓度→规避全身毒性→与现有口服药高度协同。
+
+◆ 产业信号：IPF治疗范式即将从"单一口服"向"口服+局部吸入"联合靶向转变。United Therapeutics预计2026下半年提交sNDA。
+
+吸入+口服联合疗法会成为IPF新标准吗？欢迎讨论👇
+
+— CBA 全球研发情报周报
+
+> **📋 发布策略：** 周一早8:00 ｜ 配图：吸入vs口服双通路机制图 + FVC下降对比柱状图 ｜ #IPF #肺纤维化 #Tyvaso ｜ 💡 NEJM发表自带学术信用背书
+
+---
+
+### X / Twitter
+
+🫁 HISTORIC: First-ever Phase 3 trial proving INHALED therapy slows IPF fibrosis progression — Tyvaso (treprostinil), published in NEJM
+
+Key data from TETON-2 🧵:
+
+1/ FVC decline at Wk 52: Tyvaso significantly better than placebo. Clinical deterioration risk reduced by 29% (HR 0.71).
+
+2/ 75.4% of patients were ALREADY on standard oral antifibrotics. Tyvaso showed additive benefit on top of existing therapy. This is the synergy signal.
+
+3/ Why it matters: oral antifibrotics (nintedanib, pirfenidone) cause severe GI/liver toxicity → high real-world discontinuation. Inhaled delivery maximizes lung drug concentration while minimizing systemic exposure.
+
+4/ IPF treatment paradigm is shifting: from oral monotherapy → oral + inhaled combination. sNDA expected H2 2026.
+
+This could become the first inhaled antifibrotic for IPF.
+
+#IPF #PulmonaryFibrosis #Tyvaso #NEJM #RespMed @CaboraInfo
+
+> **📋 策略：** 美东周一AM ｜ NEJM publication tag增可信度
+
+---
+
+### LinkedIn
+
+The First Inhaled Antifibrotic for IPF? Tyvaso Phase 3 Data Published in NEJM
+
+The TETON-2 Phase 3 results for inhaled treprostinil (Tyvaso) in idiopathic pulmonary fibrosis have been published in the New England Journal of Medicine — and they represent a potential paradigm shift.
+
+The trial met its primary endpoint: significant reduction in FVC decline at 52 weeks versus placebo, with a 29% reduction in clinical deterioration risk. Critically, 75.4% of enrolled patients were already receiving standard oral antifibrotic therapy, demonstrating that inhaled prostacyclin delivers additive benefit through a complementary mechanism.
+
+This addresses a real clinical pain point. Current oral antifibrotics carry significant GI and hepatotoxicity, resulting in high real-world discontinuation rates. Inhaled delivery concentrates drug at the site of disease while sparing systemic exposure — a fundamentally different pharmacological approach.
+
+If approved (sNDA expected H2 2026), this would establish a new "oral + inhaled" combination standard in IPF management.
+
+What implications does this have for the respiratory therapeutic landscape?
+
+— CBA Global R&D Intelligence Weekly
+
+> **📋 策略：** 周一上午 ｜ 呼吸科KOL + 药企BD受众
+
+---
+
+### Bluesky
+
+NEJM just published full Phase 3 results for inhaled treprostinil (Tyvaso) in IPF — the first trial showing an inhaled therapy can slow fibrotic progression.
+
+TETON-2 met its primary endpoint with significant FVC preservation at 52 weeks. The 29% reduction in clinical deterioration is clinically meaningful. What's particularly compelling is that most patients were already on oral antifibrotics, yet Tyvaso still showed additive benefit — suggesting the prostacyclin pathway offers genuinely orthogonal antifibrotic activity.
+
+The delivery strategy is elegant: aerosolized drug directly to the fibrotic lung parenchyma, bypassing the systemic toxicity that drives so many patients off nintedanib and pirfenidone.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+🫁 肺纤维化终于有新突破了！吸入式疗法首次证明有效
+
+特发性肺纤维化（IPF）——一种进行性致命肺病😰
+现有口服药虽能减缓进展，但副作用太大（伤胃伤肝）
+很多人吃不下去就停药了…
+
+现在有了全新思路：直接吸进去！💨
+
+Tyvaso——雾化吸入药物
+📊 三期试验结果（发在顶级期刊NEJM上！）：
+✅ 显著减缓肺功能下降
+✅ 临床恶化风险降低29%
+✅ 大部分人已经在吃口服药了，加上吸入还能更好！
+
+🔬 原理：药物直接送到肺里的病灶🎯
+不经过全身血液循环→副作用大减！
+就像"精准空投"而不是"地毯式轰炸"
+
+以前：只能吃药（副作用大）
+以后：吃药+吸入（效果更好，副作用更小）✨
+
+#肺纤维化 #IPF #吸入治疗 #CBA周报
+
+> **📋 策略：** 周一晚8:00 ｜ "精准空投vs地毯轰炸"比喻做科普卡片
+
+---
+
+<a id="item-2"></a>
+## 2. SGT-003 DMD 基因疗法：差异化安全性 + 心脏获益
+**分类：临床 ｜ 企业：Solid Biosciences**
+
+### WeChat 微信公众号
+
+【深度】SGT-003在DMD中展现差异化优势——低肝毒+改善心功能，挑战Sarepta Elevidys
+
+◆ Solid Biosciences在MDA 2026大会公布SGT-003（INSPIRE DUCHENNE 1/2期）中期数据：40名患者已接受单次静脉给药，展现强效微抗肌萎缩蛋白表达、肌肉完整性改善及左心室射血分数（LVEF）稳定/提升。
+
+◆ 关键差异化：
+• 安全性：未见Elevidys式严重肝毒性事件，仅需低负担类固醇预防方案
+• 心脏获益：LVEF改善提示对DMD晚期最致命的心肌病变具有疾病修饰潜力
+• 机制优势：含R16/17结构域→将nNOS定位到肌膜→改善肌肉收缩时的血流→减少缺血性坏死（初代构建体不具备）
+
+◆ Sarepta Elevidys在真实世界中暴露出严重安全性短板（含患者死亡），SGT-003的低毒特征有望重塑DMD基因治疗竞争格局。
+
+— CBA 全球研发情报周报
+
+> **📋 策略：** 周二 ｜ 配图：SGT-003 vs Elevidys安全性/机制对比表
+
+---
+
+### X / Twitter
+
+🧬 Solid Bio's SGT-003 gene therapy for DMD: 40 patients dosed, strong microdystrophin expression, improved cardiac function — and NO severe liver toxicity
+
+Why this matters vs Sarepta's Elevidys 🧵:
+
+1/ Elevidys has real-world safety problems including patient deaths from AAV-triggered inflammatory responses.
+
+2/ SGT-003 uses a novel muscle-specific capsid → higher tropism at LOWER doses. Only needs steroid-based immunomodulation (no complement inhibitors).
+
+3/ Key differentiator: R16/17 binding domain → anchors nNOS to sarcolemma → improves muscle blood flow during contraction. First-gen constructs can't do this.
+
+4/ LVEF improvement suggests disease-modifying potential for DMD cardiomyopathy — the #1 killer in these patients.
+
+5/ Solid Bio pursuing accelerated approval based on biomarker + functional data.
+
+#DMD #GeneTherapy #RareDisease @CaboraInfo
+
+> **📋 策略：** 周二AM ｜ MDA大会期间发布最大化可见度
+
+---
+
+### LinkedIn
+
+SGT-003: Rewriting the Safety Narrative in DMD Gene Therapy
+
+Solid Biosciences presented interim data from its Phase 1/2 INSPIRE DUCHENNE trial at MDA 2026, with 40 patients dosed. The results show robust microdystrophin expression, muscle integrity improvement, and — critically — cardiac function stabilization.
+
+The safety profile is the headline. Unlike the first-generation Elevidys, which has faced serious liver toxicity events in clinical and real-world use, SGT-003 demonstrated excellent tolerability with a steroid-only immunomodulation regimen. The inclusion of the R16/17 nNOS-localizing domain addresses a key biological gap in first-generation constructs by improving muscle blood flow during contraction.
+
+Cardiac improvement (LVEF) in a DMD gene therapy is particularly significant — cardiomyopathy is the leading cause of death in this population.
+
+How should the DMD treatment landscape evolve if SGT-003 achieves accelerated approval?
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky
+
+Solid Biosciences presented SGT-003 data at MDA 2026: 40 DMD patients dosed, strong microdystrophin expression, and improved left ventricular ejection fraction.
+
+The safety differentiation is notable — no severe hepatotoxicity, steroid-only immunomodulation. The construct includes R16/17 domains that localize nNOS to the sarcolemma, which should improve muscle perfusion during contraction. This is a mechanistic advantage that first-gen constructs like Elevidys lack.
+
+The cardiac signal is particularly interesting for a disease where cardiomyopathy is the primary cause of mortality.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+🧬 罕见病基因疗法有新希望！比现有药安全得多
+
+杜氏肌营养不良症（DMD）——男孩常见的致命遗传病💔
+肌肉逐渐萎缩，最终心脏也会受累
+
+现有唯一基因疗法Elevidys有严重肝毒性问题😟
+
+新疗法SGT-003数据出来了：
+✅ 40名患者已用药，效果好
+✅ 没有严重肝损伤！安全性大幅提升
+✅ 心功能也改善了——这是DMD第一死因
+
+🔬 独特设计：
+含有R16/17结构域→让肌肉收缩时血流更好🩸
+相当于给肌肉装了个"微型供血系统"
+
+从"能治但风险大"到"能治且更安全"
+这就是进步✨
+
+#DMD #罕见病 #基因治疗 #CBA周报
+
+---
+
+<a id="item-3"></a>
+## 3. BBP-418 治疗 LGMD2I/R9：底物替代疗法的精妙逻辑
+**分类：临床 ｜ 企业：BridgeBio Pharma**
+
+### WeChat 微信公众号
+
+【罕见病突破】BBP-418 FORTIFY三期中期：LGMD2I/R9患者100米步行快31秒，CK正常化率38%——FDA建议直接寻求完全批准
+
+◆ BridgeBio在MDA 2026报告BBP-418（ribitol）治疗LGMD2I/R9的Phase 3 FORTIFY中期结果：12个月时100MTT比安慰剂快近31秒；近60% CK降至正常上限2倍内，38.3%完全正常化。
+
+◆ 机制精妙：LGMD2I/R9因FKRP基因突变→α-DG糖基化不足→肌膜脆弱→每次收缩都微撕裂→CK渗漏→肌肉死亡。BBP-418作为底物前体，利用质量作用定律"淹没"突变酶→驱动残余活性完成正常糖基化。
+
+◆ 重大监管信号：FDA原建议用糖基化α-DG作替代终点走加速批准，但鉴于功能+生物标志物数据的高度一致性和统计显著性，转而建议直接走传统完全批准——省去上市后确证试验的巨额成本。
+
+◆ BridgeBio计划2026上半年提交NDA，峰值销售预期超6亿美元。
+
+— CBA 全球研发情报周报
+
+> **📋 策略：** 周二 ｜ 配图：底物替代疗法机制图（"淹没突变酶"的比喻）
+
+---
+
+### X / Twitter
+
+💪 BridgeBio's BBP-418 Phase 3 in LGMD2I/R9: patients walked 31 seconds FASTER over 100m vs placebo at 12 months
+
+More data:
+• ~60% achieved CK ≤2x ULN
+• 38.3% CK fully normalized
+• FDA pivoted: recommending TRADITIONAL approval (not accelerated) based on data strength
+
+Mechanism is elegant: BBP-418 = substrate replacement. Floods the system with ribitol → overwhelms the mutant FKRP enzyme → forces residual activity to complete α-DG glycosylation → stabilizes muscle membranes.
+
+No gene therapy needed. Just an oral pill that exploits mass action kinetics. 🧪
+
+NDA planned H1 2026. Peak sales >$600M.
+
+#RareDisease #LGMD #BridgeBio #Neuromuscular @CaboraInfo
+
+---
+
+### LinkedIn
+
+BBP-418: When Biochemistry Elegance Meets Regulatory Pragmatism
+
+BridgeBio's Phase 3 FORTIFY interim data for BBP-418 (ribitol) in LGMD2I/R9 is remarkable on multiple levels.
+
+The clinical results — 31-second improvement in 100m timed test, 38.3% CK normalization — demonstrate clear functional benefit in a disease with zero approved therapies.
+
+But the regulatory signal may be even more significant. FDA initially suggested using glycosylated α-DG as a surrogate endpoint for accelerated approval. After seeing the consistency of functional and biomarker data, FDA recommended traditional full approval instead — eliminating the need for costly post-marketing confirmatory trials.
+
+The substrate replacement mechanism deserves attention: rather than gene editing or replacement, BBP-418 uses mass action kinetics to drive residual enzyme activity. This "metabolic flooding" approach may have broader applications across enzyme deficiency diseases.
+
+NDA expected H1 2026 with peak sales projected above $600M.
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky
+
+BridgeBio reported Phase 3 interim data for BBP-418 in LGMD2I/R9: 31-second faster 100m walk test vs placebo at 12 months, with 38.3% achieving CK normalization.
+
+The mechanism is a beautiful application of mass action kinetics: ribitol overwhelms the mutant FKRP enzyme with excess substrate, forcing residual activity to glycosylate α-dystroglycan correctly. No gene editing required — just biochemistry.
+
+FDA recommended going straight to traditional approval rather than accelerated, which speaks to the data quality. NDA planned for H1 2026.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+💪 罕见肌肉病终于有救了！吃药就行，不用基因治疗
+
+肢带型肌营养不良症（LGMD2I/R9）——肌肉一天天萎缩的遗传病😢
+全球零获批药物！
+
+BBP-418三期数据出来了：
+📊 12个月后，100米走路快了31秒！
+📊 38%的人肌肉损伤指标完全正常化！
+
+🔬 原理超聪明：
+基因突变→酶"干活效率低"→肌肉膜没修好→每次动都微裂→肌肉慢慢死
+这个药的策略：给酶"加料"！🧪
+用大量原料"淹没"突变酶→逼它干活→肌肉膜修好了！
+
+就像一个手慢的工人，你给他堆满材料，他也能完成任务💡
+
+FDA都说数据太好了，直接给完全批准（不用走加速通道）！
+
+#罕见病 #LGMD #肌营养不良 #CBA周报
+
+---
+
+<a id="item-4"></a>
+## 4. Roche/Zealand Petrelintide：10.7%减重 + 零呕吐的战略价值
+**分类：临床 ｜ 企业：Roche / Zealand Pharma**
+
+### WeChat 微信公众号
+
+【深度解读】Petrelintide二期数据"令人失望"？——别被股价骗了，真正的价值在"减重质量"和联合用药
+
+◆ Roche/Zealand公布胰淀素类似物petrelintide二期ZUPREME-1数据：42周减重10.7%（安慰剂1.7%），达主要终点。但Roche跌6%，Zealand暴跌1/3。
+
+◆ 市场为何恐慌？GLP-1双寡头（Zepbound/Wegovy）同期可达15-20%+减重。10.7%被华尔街标记为"缺乏差异化"。
+
+◆ 但别忽略隐藏价值：
+• 零呕吐事件（最大有效剂量下）！因GI不适停药仅4.8%（≈安慰剂4.9%）
+• GLP-1类药物最大痛点=恶心呕吐→真实世界停药率极高
+• 胰淀素通过后脑增加饱腹感，机制完全不同于GLP-1
+
+◆ 真正定位：不是单药PK Zepbound，而是作为联合疗法基石。Roche可将petrelintide与GLP-1复方→>20%减重+用petrelintide替代高剂量GLP-1→抵消GI毒性→打破耐受性瓶颈。
+
+这才是大药企的减重组合棋局。
+
+— CBA 全球研发情报周报
+
+> **📋 策略：** 周三 ｜ "减重幅度vs减重质量"框架图 ｜ 💡 "股价跌了但逻辑没跌"的反直觉角度吸引点击
+
+---
+
+### X / Twitter
+
+📉 Roche -6%, Zealand -33% after petrelintide Phase 2 data. But is the market wrong?
+
+10.7% weight loss at Wk 42 looks weak vs GLP-1s (15-20%+). BUT:
+
+1/ ZERO vomiting at max dose. GI discontinuation: 4.8% (= placebo). This is unheard of in obesity drugs.
+
+2/ GLP-1s' biggest real-world problem = nausea/vomiting → patients quit. Petrelintide solves this.
+
+3/ Amylin works through the hindbrain (satiety) — completely different mechanism from GLP-1.
+
+4/ The play isn't monotherapy. It's COMBINATION: petrelintide + GLP-1 → >20% weight loss, MINUS the GI toxicity.
+
+5/ Roche is building a combination franchise, not a standalone competitor.
+
+Don't confuse a Phase 2 monotherapy readout with the full strategic picture.
+
+#Obesity #GLP1 #Amylin #Roche @CaboraInfo
+
+> **📋 策略：** 周三AM ｜ 反直觉角度吸引讨论
+
+---
+
+### LinkedIn
+
+Petrelintide: Why the Market Reaction Misses the Strategic Point
+
+Roche and Zealand's Phase 2 ZUPREME-1 results for petrelintide — 10.7% weight loss at 42 weeks — triggered significant stock declines. The market's verdict: undifferentiated versus GLP-1 agonists.
+
+But consider the tolerability data: zero vomiting at the maximum effective dose, with GI-related discontinuation of 4.8% — essentially equivalent to placebo. In a therapeutic area where real-world dropout rates from GLP-1s are driven primarily by nausea and vomiting, this is a profound differentiator.
+
+The strategic value of petrelintide isn't as a monotherapy challenger to Zepbound. It's as a combination cornerstone — enabling >20% weight loss by partnering with GLP-1 mechanisms while replacing the dose escalation that drives GI intolerance.
+
+This is how next-generation obesity franchises will be built: not by maximizing a single mechanism, but by combining complementary pathways with optimized tolerability profiles.
+
+How should investors evaluate obesity pipeline assets beyond headline weight loss numbers?
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky
+
+Roche's petrelintide hit 10.7% weight loss at 42 weeks — and the stock dropped. But the tolerability data is what's actually interesting.
+
+Zero vomiting events at max dose. 4.8% GI-related discontinuation, indistinguishable from placebo. Amylin works through hindbrain satiety signaling, mechanistically distinct from GLP-1.
+
+The value proposition isn't monotherapy weight loss. It's combination potential — partnering with GLP-1 agonists to achieve deep weight loss while replacing the dose escalation that causes GI intolerance. That's a fundamentally different strategic play than headline numbers suggest.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+📉 减肥新药数据出来，股价暴跌33%？但真相没那么简单
+
+罗氏的新减肥药petrelintide：42周减重10.7%
+听起来比不过GLP-1类的15-20%？
+
+但有一个超级大优点：
+🤢 零呕吐！因胃肠道不适停药仅4.8%
+
+要知道现在最火的减肥药（Wegovy、Zepbound）
+最大的问题就是：恶心、呕吐→很多人受不了就不吃了😵
+
+这个药走的是完全不同的路线（胰淀素→后脑饱腹感）
+未来大概率不是单独用
+而是和GLP-1联合使用：
+减重>20% + 不恶心不吐 = 完美组合💊+💊
+
+股价跌了≠药不好
+有时候市场也会看走眼👀
+
+#减肥药 #GLP1 #罗氏 #CBA周报
+
+---
+
+<a id="item-5"></a>
+## 5. INT230-6 瘤内注射治 TNBC：冷肿瘤变热肿瘤
+**分类：临床 ｜ 企业：Intensity Therapeutics**
+
+### WeChat 微信公众号
+
+【肿瘤免疫新策略】INT230-6瘤内注射预处理TNBC：pCR率从33%飙升至71.4%——将冷肿瘤变为"原位疫苗"
+
+◆ Intensity Therapeutics报告INVINCIBLE-4二期新辅助TNBC试验：先注射INT230-6再行标准免疫化疗（Keynote-522方案），pCR率达71.4%（5/7），而直接SOC组仅33%（2/6）。≥3级AE减少44%。
+
+◆ 机制：INT230-6瘤内注射→药物在肿瘤内广泛扩散渗透→大规模免疫原性细胞死亡（ICD）→释放新抗原+DAMPs→招募激活树突细胞和T细胞→"冷肿瘤"变"热肿瘤"→后续PD-1抑制剂协同效应倍增。
+
+◆ 安全性优势：药物限于局部→全身化疗暴露大减→严重AE显著降低。
+
+— CBA 全球研发情报周报
+
+---
+
+### X / Twitter
+
+🎯 INT230-6 intratumoral injection before standard chemo-immunotherapy in TNBC:
+
+pCR rate: 71.4% (INT230-6 → SOC) vs 33% (SOC alone)
+Grade ≥3 AEs: reduced 44%
+
+Mechanism: drug diffuses throughout tumor → massive immunogenic cell death → neoantigen release → converts cold tumor to hot → supercharges downstream PD-1 response.
+
+Local drug = less systemic toxicity + better efficacy. 🔬
+
+Early data, small n, but the direction is compelling.
+
+#TNBC #BreastCancer #Immunotherapy #IntratumoralTherapy @CaboraInfo
+
+---
+
+### LinkedIn
+
+Intratumoral Immune Priming: INT230-6 Doubles pCR in Triple-Negative Breast Cancer
+
+Phase 2 INVINCIBLE-4 data shows INT230-6 intratumoral injection prior to standard Keynote-522 achieves 71.4% pCR versus 33% with standard of care alone — with 44% fewer severe adverse events.
+
+The concept: convert immunologically cold tumors into hot tumors via massive immunogenic cell death before systemic immunotherapy. Local drug delivery minimizes systemic exposure while maximizing tumor antigen presentation.
+
+If confirmed in the expanded 61-patient cohort, this "immune priming" strategy could reshape neoadjuvant TNBC treatment guidelines.
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky
+
+INT230-6 intratumoral injection before Keynote-522 in early TNBC: 71.4% pCR vs 33% SOC alone, with 44% fewer severe AEs. Small numbers but striking effect size.
+
+The mechanism is conceptually appealing: inducing massive immunogenic cell death locally → neoantigen release → dendritic cell recruitment → converting a cold TME to hot before systemic immunotherapy arrives.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+💉 三阴乳腺癌有了新打法！先打一针让肿瘤"发烧"
+
+三阴乳腺癌——最难治的乳腺癌类型😰
+很多患者对免疫治疗反应差（因为是"冷肿瘤"❄️）
+
+新策略：先往肿瘤里注射INT230-6
+→ 肿瘤细胞大量死亡→释放"信号弹"🚨
+→ 免疫系统被唤醒→冷肿瘤变"热肿瘤"🔥
+→ 再用标准免疫化疗→效果翻倍！
+
+📊 结果：
+✅ 先注射组：71.4%完全缓解
+❌ 直接化疗组：33%完全缓解
+✅ 严重副作用还少了44%！
+
+因为药只在肿瘤局部发挥作用
+不像化疗那样全身"轰炸"💣
+
+#三阴乳腺癌 #免疫治疗 #CBA周报
+
+---
+
+<a id="item-6"></a>
+## 6–7. 帕金森 GCase 调节剂 + 结核病增效剂
+**分类：临床**
+
+### WeChat 微信公众号（合并发布）
+
+【前沿双响】GT-02287帕金森1b期：脑脊液病理底物降81% ｜ AlpE结核2b期首例给药
+
+◆ A. Gain Therapeutics GT-02287（PD）
+口服GCase变构调节剂，AD/PD 2026大会数据：90天给药后CSF GluSph平均降81%——极强靶点结合证据。MDS-UPDRS评分改善，虽样本小但方向明确。机制：作为分子伴侣稳定错误折叠GCase→恢复溶酶体功能→清除α-突触核蛋白毒性聚集。Phase 2计划Q3 2026启动。
+
+◆ B. BioVersys AlpE（TB）
+GSK合作框架下，AlpE联合一线抗TB方案的2b期在六个非洲国家完成首例给药。AlpE不直接杀菌，而是通过TRIC平台抑制细菌转录抑制机制→重新激活对乙硫异烟胺的敏感性→允许大幅降低Eto剂量→规避剂量依赖性肝毒性+逆转已形成耐药。此前2a期已证明活性与异烟肼相当。顶线结果预计2027年底。
+
+— CBA 全球研发情报周报
+
+---
+
+### X / Twitter
+
+🧠 Parkinson's disease-modifying therapy signal: GT-02287 (oral GCase modulator) reduced CSF GluSph by 81% at 90 days in Phase 1b
+
+Plus MDS-UPDRS improvement. Small sample, big pharmacodynamic signal. This is what "treating the cause, not symptoms" looks like in PD.
+
+Phase 2 planned Q3 2026.
+
+---
+
+🦠 TB innovation: BioVersys/GSK AlpE Phase 2b dosed first patient across 6 African countries
+
+AlpE doesn't kill bacteria directly. It re-sensitizes TB to ethionamide by blocking transcriptional resistance → allows lower doses → less liver toxicity. Reverses existing resistance too.
+
+Phase 2a showed potency comparable to isoniazid.
+
+#Parkinsons #TB #AMR @CaboraInfo
+
+---
+
+### LinkedIn
+
+Two Clinical Milestones Worth Watching: Parkinson's Disease Modification and TB Drug Resensitization
+
+GT-02287 (Gain Therapeutics): Phase 1b data showing 81% CSF GluSph reduction validates the GCase chaperone mechanism in Parkinson's patients. If confirmed in Phase 2, this could become the first true disease-modifying therapy for PD — addressing α-synuclein aggregation at its lysosomal root rather than masking dopaminergic symptoms.
+
+AlpE (BioVersys/GSK): Phase 2b initiated across six African countries for drug-sensitive TB. Rather than creating a new antibiotic, AlpE re-sensitizes bacteria to existing drugs — a strategically elegant approach to antimicrobial resistance.
+
+Both represent mechanistic innovation over brute-force pharmacology.
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky / 小红书
+
+*(Bluesky: combined brief post covering both milestones. 小红书: GT-02287 as "给大脑的垃圾清理系统修bug🧠"; AlpE as "不造新武器，而是让旧武器重新好使🔧")*
+
+---
+
+<a id="item-8"></a>
+## 8–13. 融资六连发
+
+### WeChat 微信公众号（综合融资快报）
+
+【CBA融资周报】本周全球医药一级市场六大融资深度速览
+
+◆ Parabilis Medicines | $3.05亿 F轮
+Helicon多肽平台攻克"不可成药"靶点。先导zolucatetide是全球首个直接进入细胞核阻断β-catenin/TCF的药物。Phase 1/2显示硬纤维瘤缩小52.2%+息肉降级。FDA孤儿药+快速通道认定。
+
+◆ CORXEL Pharmaceuticals | $2.87亿 D1轮
+口服小分子GLP-1激动剂CX11，"中美双线并发"策略——中国Phase 3+美国Phase 2。解决注射GLP-1的供应链和依从性痛点。
+
+◆ Korro Bio | $8500万 PIPE
+RNA编辑（非DNA编辑）：利用内源ADAR酶进行A-to-I单碱基编辑。核心优势=瞬时可逆+GalNAc成熟递送。先导管线针对α-1抗胰蛋白酶缺乏症。
+
+◆ Vitestro | $7000万 B轮
+AI+机器人全自动采血系统Aletta。Labcorp、Mayo Clinic、Intuitive Surgical创始人参投。CE认证，10000+患者验证，首穿成功率媲美人类。FDA De Novo申请推进中。
+
+◆ TRexBio | $5000万 B轮
+TNFR2激动剂TRB-061——组织特异性Treg靶向治疗特应性皮炎。强生、礼来、辉瑞三大巨头同时跟投。
+
+◆ Equillium | $3500万 PIPE
+口服AhR调节剂EQ504，靶向肠道局部免疫调节治疗IBD。RA Capital领投。
+
+📊 本周融资主题词：不可成药靶点、口服替代注射、RNA编辑安全性红利、医疗AI基础设施、组织特异性免疫调节。
+
+— CBA 全球研发情报周报
+
+---
+
+### X / Twitter
+
+💰 6 notable biotech raises this week — a thread 🧵:
+
+1/ Parabilis $305M Series F — Helicon peptides crack β-catenin ("undruggable" for 30 years). Zolucatetide: first direct nuclear β-catenin inhibitor. 52.2% desmoid tumor shrinkage.
+
+2/ CORXEL $287M Series D1 — Oral small-molecule GLP-1 agonist CX11. Dual China Ph3 + US Ph2 strategy. Solving the injectable supply chain crisis.
+
+3/ Korro Bio $85M PIPE — RNA editing (NOT DNA). Uses endogenous ADAR enzymes. Transient, reversible, safe. GalNAc delivery. Lead: AATD.
+
+4/ Vitestro $70M Series B — AI robotic blood draw. Labcorp + Mayo Clinic invested. 10,000+ patients tested. CE-marked, FDA De Novo pending.
+
+5/ TRexBio $50M Series B — Tissue-targeted Treg therapy via TNFR2 agonist. J&J, Lilly, Pfizer all co-invested. Lead: atopic dermatitis.
+
+6/ Equillium $35M PIPE — Oral AhR modulator for gut-targeted immune modulation in IBD. RA Capital.
+
+Theme: precision over platform, safety over speed. 🎯
+
+#Biotech #VCFunding #PharmaInnovation @CaboraInfo
+
+---
+
+### LinkedIn
+
+Six Raises, One Pattern: Capital Is Flowing to Mechanistic Precision
+
+This week's biotech financing activity reveals a clear thesis: investors are paying premium valuations for assets that solve specific clinical problems through novel mechanisms — not for broad platforms without proof of concept.
+
+Parabilis ($305M) finally cracks β-catenin with cell-penetrating helical peptides. CORXEL ($287M) tackles GLP-1's supply chain crisis with an oral small molecule. Korro ($85M) bets on RNA editing's safety advantage over DNA editing. Vitestro ($70M) brings AI robotics to the most common clinical procedure. TRexBio ($50M) targets tissue-specific Tregs with three pharma giants co-investing. Equillium ($35M) pursues gut-localized immune modulation via AhR.
+
+The connecting thread: each company addresses a known limitation of current standard of care through mechanistic innovation, not just incremental improvement.
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky
+
+Six biotech raises worth noting this week: Parabilis ($305M, β-catenin inhibitor via cell-penetrating peptides), CORXEL ($287M, oral GLP-1), Korro ($85M, RNA editing), Vitestro ($70M, robotic phlebotomy), TRexBio ($50M, tissue-targeted Tregs), Equillium ($35M, gut-targeted AhR modulation).
+
+The pattern: each addresses a specific mechanism-level limitation of current therapies. Capital is rewarding clinical precision over platform breadth.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+💰 本周全球生物医药6大融资！看看钱往哪里流
+
+1️⃣ $3.05亿｜Parabilis——30年打不到的癌症靶点，终于被"钻进细胞核的多肽"攻克了🎯
+2️⃣ $2.87亿｜CORXEL——GLP-1减肥药改口服版💊 不用打针了
+3️⃣ $8500万｜Korro——比基因编辑更安全的"RNA编辑"，改了还能改回来🔄
+4️⃣ $7000万｜Vitestro——AI机器人自动抽血🤖 比护士还准
+5️⃣ $5000万｜TRexBio——精准激活皮肤里的"免疫刹车"治湿疹
+6️⃣ $3500万｜Equillium——口服药直达肠道修复免疫平衡
+
+关键词：精准、安全、口服、AI
+钱不再撒胡椒面，而是精准投向"解决具体问题"的公司💡
+
+#生物医药 #融资 #创新药 #CBA周报
+
+---
+
+<a id="item-14"></a>
+## 14. Servier 25 亿美元收购 Day One：神经肿瘤学战略拼图
+**分类：并购**
+
+### WeChat 微信公众号
+
+【重磅并购】Servier 25亿美元全现金吞下Day One——68%溢价背后：Type II泛RAF抑制剂如何规避"悖论激活"致命缺陷
+
+◆ 法国Servier以$21.50/股（溢价68%）全现金收购Day One，总价约25亿美元。核心资产Ojemda（tovorafenib）已获FDA批准治疗儿童低级别胶质瘤（pLGG）。
+
+◆ 机制差异化：第一代BRAF抑制剂仅结合激酶"活性构象"→在非V600突变中导致"悖论激活"加速肿瘤。Tovorafenib是Type II型泛RAF抑制剂→结合"非活性构象"→同时阻断单体+二聚体信号→规避悖论激活→广谱RAF/RAS覆盖。
+
+◆ 战略协同：与Servier已有的IDH突变胶质瘤药物Voranigo共享神经肿瘤专科销售网络。"2030肿瘤学转型"核心拼图。
+
+— CBA 全球研发情报周报
+
+---
+
+### X / Twitter
+
+🧠 Servier acquires Day One for $2.5B (68% premium) to own Ojemda (tovorafenib) — FDA-approved for pediatric low-grade glioma
+
+Why $2.5B? Type II pan-RAF inhibitor that solves the "paradoxical activation" problem of first-gen BRAF drugs. Binds inactive conformation → blocks both monomer + dimer signaling → broad RAF/RAS coverage.
+
+Perfect fit with Servier's Voranigo (IDH-mutant glioma). Same prescriber network, complementary neuro-oncology portfolio.
+
+#PharmaMA #NeuroOncology #Servier #RAF @CaboraInfo
+
+---
+
+### LinkedIn / Bluesky / 小红书
+
+*(LinkedIn: 战略协同+Type II抑制剂机制角度。Bluesky: 药理学讨论悖论激活解决方案。小红书: "25亿美元买了一个治儿童脑瘤的药"→Type II药物"锁死而非激活"比喻)*
+
+---
+
+<a id="item-15"></a>
+## 15. Alfasigma 引进 GSK Linerixibat：PBC 双端垄断
+**分类：并购**
+
+### WeChat 微信公众号
+
+【管线修剪经典案例】Alfasigma $3亿首付引进GSK Linerixibat——PBC"病理端+症状端"双垄断成型
+
+◆ Alfasigma获GSK linerixibat全球独家权利：$3亿首付+获批后$1亿+最高$2.7亿销售里程碑+双位数royalties，总潜在价值~$7亿。
+
+◆ 双赢逻辑：
+• 买方（Alfasigma）：已有PBC基石药Ocaliva（病理控制端），加上linerixibat（症状控制端/瘙痒）→PBC全疾病管理护城河。GI/肝病专科销售网络完美复用。
+• 卖方（GSK）：罕见病天花板有限，不值得投入全球商业化铺底费用。锁定$4亿确定性现金+保留royalties分享权。资源聚焦HBV功能性治愈、MASH等更高增长管线。
+
+◆ 教科书级"管线修剪"：大药企"有所不为"的资本效率优化。
+
+— CBA 全球研发情报周报
+
+---
+
+### X / Twitter
+
+💊 Alfasigma pays $300M upfront to GSK for linerixibat (IBAT inhibitor for PBC pruritus). Total deal value ~$700M.
+
+Strategic genius: Alfasigma already owns Ocaliva (PBC disease modification). Adding linerixibat = monopoly on BOTH disease control AND symptom control in PBC.
+
+For GSK: locks in $400M cash + royalties, frees resources for HBV cure and MASH pipeline. Textbook portfolio pruning.
+
+#PBC #RareDisease #PharmaMA #GSK @CaboraInfo
+
+---
+
+*(LinkedIn/Bluesky/小红书: 围绕"管线修剪"策略和PBC双端垄断展开)*
+
+---
+
+<a id="item-16"></a>
+## 16. FDA 批准 Wellcovorin：真实世界证据的监管里程碑
+**分类：监管**
+
+### WeChat 微信公众号
+
+【监管风向标】FDA批准Wellcovorin治疗脑叶酸缺乏症——零RCT、纯靠46例真实世界病例报告获批的历史先例
+
+◆ 2026年3月10日，FDA批准扩大Wellcovorin（亚叶酸钙）适应症，用于FOLR1双等位基因变异导致的脑叶酸缺乏症——全球记录病例不到50例。
+
+◆ 机制：FOLR1突变→叶酸受体失灵→叶酸无法穿过血脑屏障→大脑"叶酸饥饿"→发育倒退、顽固性癫痫、严重智障。高剂量亚叶酸通过替代转运通道（RFC）强行渗透血脑屏障→补充大脑叶酸。
+
+◆ 监管突破：批准完全基于真实世界证据——2009-2024年间26份病例报告（46名患者），无任何RCT。89%（24/27）口服治疗者显示明确临床逆转。
+
+◆ 背景：FDA刚因要求亨廷顿基因疗法AMT-130做"假手术对照"引发国会调查和伦理争议。Wellcovorin获批被视为FDA在"科学严谨性vs医学伦理"之间重新平衡的政策声明。
+
+◆ 行业影响：真实世界数据在超罕见病领域的监管权重正在实质性跃升。自然史队列对照、精准生物标志物替代终点将获得更高博弈价值。
+
+— CBA 全球研发情报周报
+
+> **📋 策略：** 周五 ｜ 适合法规+罕见病社群传播
+
+---
+
+### X / Twitter
+
+🏛️ FDA just approved Wellcovorin for cerebral folate transport deficiency — based ENTIRELY on real-world evidence
+
+No RCT. Zero.
+
+Approval based on 26 published case reports (46 patients, 2009-2024). 89% showed clinical reversal.
+
+Why? <50 cases worldwide. Can't run a traditional trial. Can't ethically give placebo to seizing infants.
+
+This comes DAYS after FDA demanded sham surgery controls for Huntington's gene therapy (sparking Congressional investigation).
+
+Signal: FDA is recalibrating the evidence standard for ultra-rare diseases. RWE just got a massive credibility boost.
+
+#FDA #RareDisease #RealWorldEvidence #RegulatoryScience @CaboraInfo
+
+---
+
+### LinkedIn
+
+Real-World Evidence Just Earned Its Biggest Win at FDA
+
+The FDA approved Wellcovorin for cerebral folate transport deficiency — a disease with fewer than 50 documented cases globally — based entirely on published case reports and retrospective literature. No randomized controlled trial. No placebo arm.
+
+This is unprecedented and arrives at a politically charged moment: days after FDA demanded sham surgery controls for a Huntington's disease gene therapy, triggering Congressional scrutiny.
+
+The approval signals a genuine recalibration of evidence standards for ultra-rare diseases. For companies developing therapies for extremely small patient populations, the implications are significant: natural history controls, biomarker surrogate endpoints, and systematic real-world data collection will carry substantially more regulatory weight going forward.
+
+How should rare disease developers adapt their clinical development strategies?
+
+— CBA Global R&D Intelligence Weekly
+
+---
+
+### Bluesky
+
+FDA approved Wellcovorin for cerebral folate transport deficiency based entirely on 26 published case reports spanning 2009-2024. No RCT. The disease has <50 documented cases worldwide.
+
+This is a significant moment for regulatory science. The traditional evidence hierarchy assumes you can run adequately powered trials — but for ultra-rare diseases, that's mathematically and ethically impossible.
+
+Arriving days after the controversial sham surgery demand for Huntington's gene therapy, this approval reads as a deliberate recalibration of FDA's evidentiary flexibility for rare diseases.
+
+CBA Weekly | March 13, 2026
+
+---
+
+### 小红书
+
+🏛️ FDA做了一件史无前例的事！零临床试验，靠病例报告就批了新药
+
+脑叶酸缺乏症——全球不到50个病例😱
+婴儿期发病→癫痫、发育倒退、智力障碍
+
+原因：基因突变→叶酸进不了大脑🧠
+治疗：高剂量亚叶酸→走"后门"通道强行进入大脑
+
+问题来了：病人这么少，怎么做临床试验？
+而且给癫痫发作的婴儿用安慰剂？太不人道了❌
+
+FDA的做法：翻遍2009-2024年所有发表的病例报告
+46个病人，89%有效！→ 批了！✅
+
+这是FDA第一次完全靠"真实世界证据"批药
+打开了罕见病审批的新大门🚪
+
+#FDA #罕见病 #监管创新 #CBA周报
+
+---
+
+## 关于 GitHub Pages 呈现的建议
+
+以下是几个实操建议：
+
+1. **Jekyll + GitHub Pages** 是最轻量的方案。这份 md 文件直接放进 `_posts/` 目录就能渲染。用 `minimal-mistakes` 或 `just-the-docs` 主题可以自带目录导航和搜索。
+
+2. **按平台拆分为独立页面**：如果希望志愿者按平台复制内容，可以考虑把每个平台的内容拆成独立的 md 文件（如 `wechat.md`, `x.md`），通过 Jekyll 的 collection 功能组织，首页做索引跳转。
+
+3. **复制体验**：GitHub Pages 原生不支持一键复制按钮，但可以用一小段 JS（`navigator.clipboard.writeText()`）+ 在 md 中嵌入 `<button>` 标签实现。或者直接用 Docsify（零构建静态站点生成器），它支持代码块自带复制按钮。
+
+4. **自动化流水线**：长期可以考虑 md → GitHub repo → GitHub Actions 自动部署，每周只需 push 一个 md 文件即完成更新。
+
+5. **成本对比**：这份 md 约 4 万字符，远小于之前 HTML 版的 token 消耗（HTML 版连带 JS/CSS 约 15-20 万字符）。后续可以进一步压缩——比如小红书和 Bluesky 内容更短，不需要每条都展开完整策略提示。
