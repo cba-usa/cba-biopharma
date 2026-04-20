@@ -198,16 +198,18 @@
     .markdown-section table {
       display: block;
       max-width: 100%;
-      width: max-content;
+      width: 100%;
       min-width: 100%;
       overflow-x: auto;
       border-collapse: collapse;
       font-size: 0.92em;
       border-radius: 8px;
       box-shadow: 0 0 0 1px var(--cba-border);
-      white-space: normal;
-      word-break: normal;
-      overflow-wrap: normal;
+      table-layout: auto;
+      white-space: nowrap;
+      word-break: keep-all !important;
+      overflow-wrap: normal !important;
+      -webkit-overflow-scrolling: touch;
     }
     .markdown-section thead {
       background: var(--cba-accent-soft);
@@ -217,10 +219,11 @@
       border: 1px solid var(--cba-border);
       padding: 0.5rem 0.75rem;
       text-align: left;
-      min-width: 7rem;
-      word-break: normal;
-      overflow-wrap: normal;
-      hyphens: none;
+      min-width: 8rem;
+      white-space: nowrap !important;
+      word-break: keep-all !important;
+      overflow-wrap: normal !important;
+      hyphens: none !important;
       vertical-align: top;
     }
     .markdown-section th {
@@ -230,6 +233,33 @@
     .markdown-section {
       overflow-wrap: break-word;
       word-break: normal;
+    }
+
+    .markdown-section .cba-report-toc {
+      margin: 1rem 0 1.5rem;
+      padding: 0.25rem 0 0.5rem;
+    }
+    .markdown-section .cba-report-toc h2 {
+      margin-top: 1.25rem;
+    }
+    .markdown-section .cba-report-toc a {
+      display: block;
+      padding: 0.45rem 0;
+      font-weight: 600;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 768px) {
+      .markdown-section table {
+        width: max-content;
+        min-width: 44rem;
+        font-size: 0.86em;
+      }
+      .markdown-section th,
+      .markdown-section td {
+        min-width: 8.5rem;
+        max-width: 18rem;
+      }
     }
 
     /* 代码块 */
