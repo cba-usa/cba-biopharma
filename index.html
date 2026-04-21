@@ -194,7 +194,7 @@
       margin: 0.35em 0;
     }
 
-    /* 表格：手机可横向轻滑，表头强调 */
+    /* 表格：长内容自动换行，窄屏保留横向轻滑 */
     .markdown-section table {
       display: block;
       max-width: 100%;
@@ -206,9 +206,9 @@
       border-radius: 8px;
       box-shadow: 0 0 0 1px var(--cba-border);
       table-layout: auto;
-      white-space: nowrap;
-      word-break: keep-all !important;
-      overflow-wrap: normal !important;
+      white-space: normal;
+      word-break: normal;
+      overflow-wrap: anywhere;
       -webkit-overflow-scrolling: touch;
     }
     .markdown-section thead {
@@ -220,14 +220,15 @@
       padding: 0.5rem 0.75rem;
       text-align: left;
       min-width: 8rem;
-      white-space: nowrap !important;
-      word-break: keep-all !important;
-      overflow-wrap: normal !important;
-      hyphens: none !important;
+      max-width: 22rem;
+      white-space: normal !important;
+      word-break: break-word !important;
+      overflow-wrap: anywhere !important;
+      hyphens: auto !important;
       vertical-align: top;
     }
     .markdown-section th {
-      white-space: nowrap;
+      white-space: normal;
     }
 
     .markdown-section {
@@ -252,13 +253,13 @@
     @media (max-width: 768px) {
       .markdown-section table {
         width: max-content;
-        min-width: 44rem;
+        min-width: min(44rem, 100%);
         font-size: 0.86em;
       }
       .markdown-section th,
       .markdown-section td {
         min-width: 8.5rem;
-        max-width: 18rem;
+        max-width: 16rem;
       }
     }
 
