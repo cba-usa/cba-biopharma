@@ -7,7 +7,7 @@
 
 ## 一步步：把 `cba-github-pages` 加进你的 GitHub 账号
 
-下面假设你只想把 **`Information/cba-github-pages/` 这一份网站** 放到一个新仓库里（最适合 GitHub Pages）。整个 `Information` 项目可以以后再单独建库备份。
+下面假设你只想把 **本站目录** 放到一个新仓库里（最适合 GitHub Pages）。其他本地资料可以以后再单独建库备份。
 
 ### 第 1 步：在 GitHub 网页上新建空仓库
 
@@ -116,7 +116,7 @@ npx serve .
 
 浏览器打开提示的本地地址（手机同一 WiFi 下可试 `http://电脑IP:端口`）。
 
-## 与本仓库 `Information` 联动
+## 与本地资料联动
 
 生成周报后：
 
