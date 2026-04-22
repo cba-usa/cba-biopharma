@@ -847,7 +847,7 @@ PD-1 × VEGF 双抗赛道是 2024-2026 年 IO 领域 BD 密度最高的子方向
 
 ## 【1】事件锚点
 
-AACR 2026 的 ADC 主题贯穿 Day 1-3 多场 session。基于 756 条推文,Drug Discovery & Targeted Therapy 类别贡献 40 条信号,其中 ADC 占比约 30%;结合 Immunotherapy 与 Breast / Lung 分类中的交叉内容,ADC 相关推文合计约 47 条,总热度约 436。
+AACR 2026 的 ADC 主题贯穿 Day 1–5 多场 session。基于 1,600+ 条去重会议推文样本,Drug Discovery & Targeted Therapy 类别贡献 40 条信号,其中 ADC 占比约 30%;结合 Immunotherapy 与 Breast / Lung 分类中的交叉内容,ADC 相关推文合计约 47 条,总热度约 436。
 
 **关键现场信号**:
 
