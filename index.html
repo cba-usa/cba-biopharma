@@ -39,6 +39,9 @@
       --cba-bg: #f7f9fb;
       --cba-sidebar-bg: #f0f4f8;
       --cba-card: #ffffff;
+      --cba-memo-bg: #fff8e6;
+      --cba-memo-border: #e3a72f;
+      --cba-memo-soft: #fff1c7;
       --base-font-size: 17px;
       --theme-color: var(--cba-accent);
       --theme-color-lighter: #1a7a9e;
@@ -194,22 +197,35 @@
       margin: 0.35em 0;
     }
 
-    /* 表格：长内容自动换行，窄屏保留横向轻滑 */
-    .markdown-section table {
-      display: block;
+    /* 表格：长内容自动换行，窄屏横向拖拽 */
+    .markdown-section .cba-table-scroll {
       max-width: 100%;
       width: 100%;
-      min-width: 100%;
       overflow-x: auto;
+      overflow-y: hidden;
+      margin: 1rem 0 1.25rem;
+      border: 1px solid var(--cba-border);
+      border-radius: 8px;
+      background: var(--cba-card);
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-x: contain;
+      touch-action: pan-x pan-y;
+    }
+    .markdown-section .cba-table-scroll:active {
+      cursor: grabbing;
+    }
+    .markdown-section table {
+      display: table;
+      width: max-content;
+      min-width: 100%;
+      margin: 0;
       border-collapse: collapse;
       font-size: 0.92em;
-      border-radius: 8px;
-      box-shadow: 0 0 0 1px var(--cba-border);
       table-layout: auto;
       white-space: normal;
       word-break: normal;
       overflow-wrap: anywhere;
-      -webkit-overflow-scrolling: touch;
+      box-shadow: none;
     }
     .markdown-section thead {
       background: var(--cba-accent-soft);
@@ -219,8 +235,8 @@
       border: 1px solid var(--cba-border);
       padding: 0.5rem 0.75rem;
       text-align: left;
-      min-width: 8rem;
-      max-width: 22rem;
+      min-width: 9rem;
+      max-width: 18rem;
       white-space: normal !important;
       word-break: break-word !important;
       overflow-wrap: anywhere !important;
@@ -252,15 +268,43 @@
 
     @media (max-width: 768px) {
       .markdown-section table {
-        width: max-content;
-        min-width: min(44rem, 100%);
+        min-width: 42rem;
         font-size: 0.86em;
       }
       .markdown-section th,
       .markdown-section td {
-        min-width: 8.5rem;
-        max-width: 16rem;
+        min-width: 8.75rem;
+        max-width: 15rem;
       }
+    }
+
+    .markdown-section blockquote.cba-investment-memo {
+      margin: 1.35rem 0 1.75rem;
+      padding: 1rem 1.05rem;
+      border: 1px solid rgba(227, 167, 47, 0.55);
+      border-left: 5px solid var(--cba-memo-border);
+      border-radius: 10px;
+      background: linear-gradient(180deg, var(--cba-memo-bg), #ffffff 140%);
+      box-shadow: 0 10px 24px -18px rgba(119, 82, 16, 0.55);
+      color: var(--cba-ink);
+      overflow: hidden;
+    }
+    .markdown-section blockquote.cba-investment-memo > p:first-child {
+      margin-top: 0;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(227, 167, 47, 0.35);
+      font-size: 1.02em;
+    }
+    .markdown-section blockquote.cba-investment-memo .cba-table-scroll {
+      background: rgba(255, 255, 255, 0.78);
+      border-color: rgba(227, 167, 47, 0.45);
+    }
+    .markdown-section blockquote.cba-investment-memo thead {
+      background: var(--cba-memo-soft);
+    }
+    .markdown-section blockquote.cba-investment-memo p,
+    .markdown-section blockquote.cba-investment-memo li {
+      color: var(--cba-ink);
     }
 
     /* 代码块 */
@@ -592,6 +636,26 @@
               '<p class="cba-footer-disclaimer">本站为 CBA 志愿者整理的研发信息汇总，仅供会员与社区参考，不代表协会全部立场；会员、活动与章程以官网为准。</p>' +
               "</footer>";
             return html + footer;
+          });
+          hook.doneEach(function () {
+            var root = document.querySelector(".markdown-section");
+            if (!root) return;
+
+            root.querySelectorAll("blockquote").forEach(function (quote) {
+              if (quote.textContent && quote.textContent.indexOf("投资 Memo") !== -1) {
+                quote.classList.add("cba-investment-memo");
+              }
+            });
+
+            root.querySelectorAll("table").forEach(function (table) {
+              if (table.parentElement && table.parentElement.classList.contains("cba-table-scroll")) {
+                return;
+              }
+              var wrapper = document.createElement("div");
+              wrapper.className = "cba-table-scroll";
+              table.parentNode.insertBefore(wrapper, table);
+              wrapper.appendChild(table);
+            });
           });
         },
       ],
