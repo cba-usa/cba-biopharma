@@ -50,7 +50,7 @@
     body {
       font-family: "DM Sans", "Noto Serif SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       color: var(--cba-ink);
-      letter-spacing: 0.01em;
+      letter-spacing: 0;
     }
 
     /* 侧栏 */
@@ -84,6 +84,19 @@
       font-weight: 600;
       border-left: 3px solid var(--cba-accent);
       padding-left: calc(0.65rem - 3px) !important;
+    }
+    .sidebar-nav > ul > li > ul {
+      margin: 0.15rem 0 0.7rem;
+    }
+    .sidebar-nav li ul li a {
+      font-size: 0.9rem;
+      line-height: 1.38;
+      color: #31495c;
+    }
+    .sidebar-nav li.active > ul {
+      border-left: 1px solid rgba(13, 92, 124, 0.18);
+      margin-left: 0.9rem;
+      padding-left: 0.35rem;
     }
     .sidebar .search {
       margin: 0.5rem 0.75rem 1rem;
@@ -221,7 +234,7 @@
       margin: 0;
       border-collapse: collapse;
       font-size: 0.92em;
-      table-layout: auto;
+      table-layout: fixed;
       white-space: normal;
       word-break: normal;
       overflow-wrap: anywhere;
@@ -235,13 +248,15 @@
       border: 1px solid var(--cba-border);
       padding: 0.5rem 0.75rem;
       text-align: left;
-      min-width: 9rem;
+      min-width: 8rem;
+      width: 12rem;
       max-width: 18rem;
       white-space: normal !important;
       word-break: break-word !important;
       overflow-wrap: anywhere !important;
       hyphens: auto !important;
       vertical-align: top;
+      line-height: 1.55;
     }
     .markdown-section th {
       white-space: normal;
@@ -254,27 +269,95 @@
 
     .markdown-section .cba-report-toc {
       margin: 1rem 0 1.5rem;
-      padding: 0.25rem 0 0.5rem;
+      padding: 0.65rem 0.9rem 0.85rem;
+      border: 1px solid var(--cba-border);
+      border-left: 4px solid var(--cba-accent);
+      border-radius: 10px;
+      background: linear-gradient(180deg, var(--cba-accent-soft), rgba(255, 255, 255, 0.9));
     }
     .markdown-section .cba-report-toc h2 {
       margin-top: 1.25rem;
+      border-left: 0;
+      padding-left: 0;
+      color: var(--cba-ink);
+      font-size: 1.08rem;
+    }
+    .markdown-section .cba-report-toc h2:first-child {
+      margin-top: 0.2rem;
     }
     .markdown-section .cba-report-toc a {
       display: block;
-      padding: 0.45rem 0;
+      padding: 0.5rem 0;
       font-weight: 600;
       line-height: 1.45;
+      border-bottom: 1px solid rgba(13, 92, 124, 0.14);
+    }
+    .markdown-section .cba-report-toc a:last-child {
+      border-bottom: 0;
+    }
+
+    .markdown-section .cba-heading-tools {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-left: 0.65rem;
+      vertical-align: middle;
+      font-family: "DM Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+    .markdown-section .cba-heading-tools a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 1.45rem;
+      padding: 0.24rem 0.48rem;
+      border: 1px solid rgba(13, 92, 124, 0.24);
+      border-radius: 999px;
+      background: var(--cba-card);
+      text-decoration: none;
+    }
+    .markdown-section .cba-floating-toc {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 35;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.55rem;
+      padding: 0 0.9rem;
+      border-radius: 999px;
+      background: var(--cba-accent);
+      color: #fff !important;
+      border: 0 !important;
+      box-shadow: 0 10px 22px -14px rgba(15, 35, 60, 0.75);
+      font-size: 0.88rem;
+      font-weight: 600;
     }
 
     @media (max-width: 768px) {
       .markdown-section table {
-        min-width: 42rem;
+        min-width: 48rem;
         font-size: 0.86em;
       }
       .markdown-section th,
       .markdown-section td {
-        min-width: 8.75rem;
-        max-width: 15rem;
+        min-width: 8.5rem;
+        width: 11rem;
+        max-width: 13rem;
+        padding: 0.48rem 0.58rem;
+      }
+      .markdown-section .cba-heading-tools {
+        display: flex;
+        margin: 0.55rem 0 0;
+        font-size: 0.76rem;
+      }
+      .markdown-section .cba-floating-toc {
+        right: 0.85rem;
+        bottom: 0.85rem;
+        min-height: 2.35rem;
+        padding: 0 0.75rem;
       }
     }
 
@@ -656,6 +739,39 @@
               table.parentNode.insertBefore(wrapper, table);
               wrapper.appendChild(table);
             });
+
+            var isReport = location.hash.indexOf("aacr2026_report.v3.cleaned.md") !== -1;
+            if (isReport) {
+              var toc = root.querySelector("#目录, #report-toc, .cba-report-toc");
+              if (toc && !toc.id) toc.id = "report-toc";
+              var tocHref = "#/weekly/aacr2026_report.v3.cleaned.md?id=" + encodeURIComponent(toc ? toc.id : "目录");
+
+              root.querySelectorAll("h1[id], h2[id]").forEach(function (heading) {
+                if (heading.classList.contains("app-name")) return;
+                if (heading.querySelector(".cba-heading-tools")) return;
+                var text = (heading.textContent || "").trim();
+                if (!text || text === "目录") return;
+                var tools = document.createElement("span");
+                tools.className = "cba-heading-tools";
+                tools.innerHTML =
+                  '<a href="' +
+                  tocHref +
+                  '" aria-label="返回目录">返回目录</a>' +
+                  '<a href="#/weekly/aacr2026_report.v3.cleaned.md?id=' +
+                  encodeURIComponent(heading.id) +
+                  '" aria-label="复制或打开本章节链接">章节链接</a>';
+                heading.appendChild(tools);
+              });
+
+              if (!root.querySelector(".cba-floating-toc")) {
+                var floating = document.createElement("a");
+                floating.className = "cba-floating-toc";
+                floating.href = tocHref;
+                floating.textContent = "目录";
+                floating.setAttribute("aria-label", "返回报告目录");
+                root.appendChild(floating);
+              }
+            }
           });
         },
       ],
