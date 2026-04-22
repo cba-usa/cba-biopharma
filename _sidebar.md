@@ -1,4 +1,5 @@
 * **阅读报告**
+  * [最新：JPM26 X 平台热度与趋势摘要](weekly/JPM26_X_Heat_Trend_Summary.md)
   * [最新：AACR 2026 肿瘤基础、临床与转化前沿报告](weekly/aacr2026_report.v3.cleaned.md)
   * [2026-03-13 跨平台成稿（CBA）](weekly/CBA_cross_platform_03132026.md)
 * [首页](README.md)

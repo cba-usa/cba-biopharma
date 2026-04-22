@@ -740,11 +740,13 @@
               wrapper.appendChild(table);
             });
 
-            var isReport = location.hash.indexOf("aacr2026_report.v3.cleaned.md") !== -1;
+            var match = location.hash.match(/#\/(weekly\/[^?]+\.md)/);
+            var reportPath = match && match[1];
+            var isReport = Boolean(reportPath);
             if (isReport) {
               var toc = root.querySelector("#目录, #report-toc, .cba-report-toc");
               if (toc && !toc.id) toc.id = "report-toc";
-              var tocHref = "#/weekly/aacr2026_report.v3.cleaned.md?id=" + encodeURIComponent(toc ? toc.id : "目录");
+              var tocHref = "#/" + reportPath + "?id=" + encodeURIComponent(toc ? toc.id : "目录");
 
               root.querySelectorAll("h1[id], h2[id]").forEach(function (heading) {
                 if (heading.classList.contains("app-name")) return;
@@ -757,7 +759,9 @@
                   '<a href="' +
                   tocHref +
                   '" aria-label="返回目录">返回目录</a>' +
-                  '<a href="#/weekly/aacr2026_report.v3.cleaned.md?id=' +
+                  '<a href="#/' +
+                  reportPath +
+                  '?id=' +
                   encodeURIComponent(heading.id) +
                   '" aria-label="复制或打开本章节链接">章节链接</a>';
                 heading.appendChild(tools);
