@@ -5,7 +5,7 @@
 <div class="cba-home-cta">
   <p class="cba-home-cta-label">Research report</p>
   <p class="cba-home-cta-title">最新报告</p>
-  <p><a class="cba-home-cta-btn" href="#/weekly/JPM26_X_Heat_Trend_Summary.md">打开：JPM26 X 平台热度与趋势摘要</a></p>
+  <p><a class="cba-home-cta-btn" href="#/weekly/aacr2026_report_v4_final.md">打开：AACR 2026 肿瘤基础、临床与转化前沿报告</a></p>
   <p class="cba-home-cta-hint">左侧目录顶部也有「阅读报告」入口；手机上请先点左上角 <strong>≡</strong> 打开侧栏。</p>
 </div>
 
