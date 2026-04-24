@@ -20,6 +20,13 @@
 
 ---
 
+<div style="text-align:center; margin: 16px 0;">
+<img src="../assets/aacr2026_qr.jpg" alt="扫码阅读报告" width="180" />
+<p style="font-size:14px; color:#666;">扫码在手机上阅读本报告</p>
+</div>
+
+---
+
 # 目录
 
 <a id="report-toc"></a>
