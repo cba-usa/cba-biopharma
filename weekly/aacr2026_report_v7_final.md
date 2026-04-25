@@ -38,6 +38,7 @@
 <div class="cba-report-toc">
 
 <h2>Part I:靶向治疗前线</h2>
+<p style="font-size:13px; color:#888; margin:0 0 6px 0;">KRAS 从 G12C 到 RAS(ON) 的平台化演进、daraxonrasib Ph3 数据读出与监管路径、PD-1×VEGF 双抗第二代竞赛、ADC 载荷创新（DAC / dual-payload / non-cytotoxic）四条路径</p>
 
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-1">① KRAS / RAS 靶向:从命题到平台</a>
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-2">② daraxonrasib 临床包 + 监管创新</a>
@@ -45,17 +46,20 @@
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-4">④ ADC 下一代:载荷创新作为 field-level 方向</a>
 
 <h2>Part II:免疫与系统生物学</h2>
+<p style="font-size:13px; color:#888; margin:0 0 6px 0;">CAR-T 从血液瘤走向实体瘤、mRNA 个体化肿瘤疫苗、TCR 工程化 T 细胞、恶病质与耐药可塑性的系统生物学视角</p>
 
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-5">⑤ 免疫治疗前沿:CAR-T 实体瘤、mRNA 疫苗、TCR 的三重演进</a>
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-6">⑥ 肿瘤系统生物学:恶病质、耐药可塑性、细胞身份</a>
 
 <h2>Part III:转化科学与技术平台</h2>
+<p style="font-size:13px; color:#888; margin:0 0 6px 0;">MRD / ctDNA 从检测到治疗决策、空间组学与单细胞图谱技术栈、DepMap 功能基因组学、分子胶与蛋白降解、AI 从 biomarker 到临床决策前置</p>
 
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-7">⑦ MRD / ctDNA / DTP:从检测到细胞身份</a>
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-8">⑧ 技术平台层:空间组学、单细胞图谱、DepMap、分子胶与蛋白降解</a>
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-9">⑨ AI:从生物标志物引擎到临床决策前置(与平台层的耦合)</a>
 
 <h2>Part IV:小分子、墙报与癌种专题</h2>
+<p style="font-size:13px; color:#888; margin:0 0 6px 0;">非 KRAS 小分子药物化学创新、poster hall 早期临床碎片、乳腺癌 HER2 de-escalation 与 TNBC 新靶点、肺癌围手术期 IO 与 KRAS NSCLC</p>
 
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-10">⑩ 小分子药物与新型药物化学平台:非 KRAS 主线的 early-stage 创新</a>
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-11">⑪ 墙报总结:poster hall 里的早期临床、平台试验与机制碎片</a>
@@ -63,6 +67,7 @@
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-13">⑬ 肺癌专题:围手术期 IO、MRD 驱动、KRAS NSCLC 的三重演进</a>
 
 <h2>Part V:跨方向框架</h2>
+<p style="font-size:13px; color:#888; margin:0 0 6px 0;">FDA external control 路径与 NIH 资金动向、中国临床数据全球接受度、中国药企 AACR 存在感与 MNC BD 交易密度</p>
 
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-14">⑭ 政策与监管:external control、NIH 资金、中国数据的全球接受度</a>
 <a href="#/weekly/aacr2026_report_v7_final.md?id=direction-15">⑮ 产业信号:中国药企 AACR 存在感 + MNC BD 密度</a>
