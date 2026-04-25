@@ -21,7 +21,7 @@
 ---
 
 <div style="text-align:center; margin: 16px 0;">
-<img src="../assets/aacr2026_qr.jpg" alt="扫码阅读报告" width="180" />
+<img src="/cba-biopharma/assets/aacr2026_qr.jpg" alt="扫码阅读报告" width="180" />
 <p style="font-size:14px; color:#666;">扫码在手机上阅读本报告</p>
 <p style="font-size:14px; font-weight:bold; margin-top:12px;">Chinese Biopharmaceutical Association - USA</p>
 <p style="font-size:13px; color:#666;">🌐 www.cba-usa.org</p>
